@@ -1,0 +1,1758 @@
+[
+  {
+    "mode": "trash-batch",
+    "label": "Mediclaim and Life Insurance",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 256,
+    "timestamp": "2026-03-22T12:33:30.202772"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Shopping and Online Purchases",
+    "batch_start": 500,
+    "batch_size": 500,
+    "trashed": 100,
+    "timestamp": "2026-03-22T12:33:40.509526"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Company Communications",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 309,
+    "timestamp": "2026-03-22T12:33:40.967005"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "PPF NPS Bank Fundsindia",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T12:33:55.165125"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "PPF NPS Bank Fundsindia",
+    "batch_start": 500,
+    "batch_size": 500,
+    "trashed": 411,
+    "timestamp": "2026-03-22T12:33:55.664020"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Shopping and Online Purchases",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T12:33:56.906625"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T12:34:02.434488"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T12:34:11.242894"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 1000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T12:34:20.458982"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 1500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T12:34:29.367063"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 2000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T12:34:37.358889"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 2500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T12:34:45.521957"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 3000,
+    "batch_size": 500,
+    "trashed": 323,
+    "timestamp": "2026-03-22T12:34:51.383220"
+  },
+  {
+    "mode": "preview",
+    "labels_processed": 1,
+    "total_matched": 1237,
+    "total_trashed": 0,
+    "results": [
+      {
+        "label": "Company Communications",
+        "rules_applied": 1,
+        "matched": 1237,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:Company Communications",
+            "query": "-has:attachment",
+            "matched": 1237
+          }
+        ]
+      }
+    ],
+    "timestamp": "2026-03-22T13:07:32.510951"
+  },
+  {
+    "mode": "cleanup",
+    "labels_processed": 1,
+    "total_matched": 1237,
+    "total_trashed": 1237,
+    "results": [
+      {
+        "label": "Company Communications",
+        "rules_applied": 1,
+        "matched": 1237,
+        "trashed": 1237,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:Company Communications",
+            "query": "-has:attachment",
+            "matched": 1237
+          }
+        ]
+      }
+    ],
+    "timestamp": "2026-03-22T13:10:00.966542"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Shopping and Online Purchases",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 193,
+    "timestamp": "2026-03-22T13:42:17.966671"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T13:42:43.512161"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T13:42:49.808669"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 1000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T13:42:55.903636"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 1500,
+    "batch_size": 500,
+    "trashed": 127,
+    "timestamp": "2026-03-22T13:42:57.929289"
+  },
+  {
+    "mode": "preview",
+    "labels_processed": 5,
+    "total_matched": 1211,
+    "total_trashed": 0,
+    "results": [
+      {
+        "label": "Company Communications",
+        "rules_applied": 1,
+        "matched": 331,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:Company Communications",
+            "query": "-has:attachment",
+            "matched": 331
+          }
+        ]
+      },
+      {
+        "label": "Mediclaim and Life Insurance",
+        "rules_applied": 1,
+        "matched": 97,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:Mediclaim and Life Insurance",
+            "query": "-has:attachment",
+            "matched": 97
+          }
+        ]
+      },
+      {
+        "label": "Other",
+        "rules_applied": 66,
+        "matched": 221,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Risebird",
+            "source": "label:Other",
+            "query": "from:notification@risebird.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Reddit",
+            "source": "label:Other",
+            "query": "from:noreply@redditmail.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Quora Digest",
+            "source": "label:Other",
+            "query": "from:english-quora-digest@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "iimjobs",
+            "source": "label:Other",
+            "query": "from:info@iimjobs.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Medium",
+            "source": "label:Other",
+            "query": "from:noreply@medium.com",
+            "matched": 50
+          },
+          {
+            "rule_name": "Nykaa",
+            "source": "label:Other",
+            "query": "from:noreply@nykaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "NYT",
+            "source": "label:Other",
+            "query": "from:nytdirect@nytimes.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra",
+            "source": "label:Other",
+            "query": "from:updates@myntra.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BankBazaar credit card",
+            "source": "label:Other",
+            "query": "from:creditcard+ratealert@bankbazaar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "PyImageSearch",
+            "source": "label:Other",
+            "query": "from:adrian@pyimagesearch.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Glassdoor",
+            "source": "label:Other",
+            "query": "from:noreply@glassdoor.com",
+            "matched": 34
+          },
+          {
+            "rule_name": "BankBazaar credit report",
+            "source": "label:Other",
+            "query": "from:creditreport+ratealert@bankbazaar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora personalized",
+            "source": "label:Other",
+            "query": "from:english-personalized-digest@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sarah Beth Yoga",
+            "source": "label:Other",
+            "query": "from:Support@sarahbethyoga.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato",
+            "source": "label:Other",
+            "query": "from:noreply@mailers.zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipped.ai",
+            "source": "label:Other",
+            "query": "from:flipped-newsletter@mail.beehiiv.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Finxter",
+            "source": "label:Other",
+            "query": "from:chris@finxter.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Scaler",
+            "source": "label:Other",
+            "query": "from:hello@scaler.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Cloud",
+            "source": "label:Other",
+            "query": "from:CloudPlatform-noreply@google.com",
+            "matched": 12
+          },
+          {
+            "rule_name": "GitHub",
+            "source": "label:Other",
+            "query": "from:noreply@github.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "ClearTax",
+            "source": "label:Other",
+            "query": "from:support@cleartax.in",
+            "matched": 1
+          },
+          {
+            "rule_name": "bigbasket",
+            "source": "label:Other",
+            "query": "from:alert@info.bigbasket.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri Alerts",
+            "source": "label:Other",
+            "query": "from:naukrialerts@naukri.com",
+            "matched": 48
+          },
+          {
+            "rule_name": "EaseMyTrip",
+            "source": "label:Other",
+            "query": "from:connect@easemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Udemy",
+            "source": "label:Other",
+            "query": "from:no-reply@e.udemymail.com",
+            "matched": 18
+          },
+          {
+            "rule_name": "Naukri toptier",
+            "source": "label:Other",
+            "query": "from:toptier@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Eximat recruiter",
+            "source": "label:Other",
+            "query": "from:careersc2tpbGxzY2FwaXRhbC5pbw==@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AJIO",
+            "source": "label:Other",
+            "query": "from:alert@mailer.ajio.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Towards Data Science",
+            "source": "label:Other",
+            "query": "from:newsletter@towardsdatascience.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri",
+            "source": "label:Other",
+            "query": "from:info@naukri.com",
+            "matched": 19
+          },
+          {
+            "rule_name": "Google noreply",
+            "source": "label:Other",
+            "query": "from:no-reply@accounts.google.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "LinkedIn",
+            "source": "label:Other",
+            "query": "from:updates-noreply@linkedin.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Swiggy",
+            "source": "label:Other",
+            "query": "from:noreply@swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Kaggle",
+            "source": "label:Other",
+            "query": "from:no-reply@kaggle.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber",
+            "source": "label:Other",
+            "query": "from:uber@uber.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Jeevansathi Contacts",
+            "source": "label:Other",
+            "query": "from:contacts@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "TechGig News",
+            "source": "label:Other",
+            "query": "from:technews@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip",
+            "source": "label:Other",
+            "query": "from:noreply@zen-makemytrip.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Jeevansathi Matches",
+            "source": "label:Other",
+            "query": "from:matchalert@jeevansathi.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Talent500",
+            "source": "label:Other",
+            "query": "from:info@talent500.co",
+            "matched": 1
+          },
+          {
+            "rule_name": "upGrad",
+            "source": "label:Other",
+            "query": "from:noreply@support.upgrad.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Info",
+            "source": "label:Other",
+            "query": "from:info@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Udemy Students",
+            "source": "label:Other",
+            "query": "from:hello@students.udemy.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "sRide",
+            "source": "label:Other",
+            "query": "from:support@sride.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "greatmail spam",
+            "source": "label:Other",
+            "query": "from:newsletters@greatmail.in",
+            "matched": 3
+          },
+          {
+            "rule_name": "CiteHR",
+            "source": "label:Other",
+            "query": "from:cite@citemailer.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Lenskart",
+            "source": "label:Other",
+            "query": "from:service@en.lenskart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "NoBroker",
+            "source": "label:Other",
+            "query": "from:hello@nobroker.in",
+            "matched": 4
+          },
+          {
+            "rule_name": "GitHub notifications",
+            "source": "label:Other",
+            "query": "from:notifications@github.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Turing",
+            "source": "label:Other",
+            "query": "from:communications@turing.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Location Sharing",
+            "source": "label:Other",
+            "query": "from:noreply-location-sharing@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "plusoasis spam",
+            "source": "label:Other",
+            "query": "from:info@smt.plusoasis.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google noreply",
+            "source": "label:Other",
+            "query": "from:noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AmbitionBox",
+            "source": "label:Other",
+            "query": "from:no-reply@ambitionbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent500 Aditi",
+            "source": "label:Other",
+            "query": "from:aditi@talent500.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora Curiosity",
+            "source": "label:Other",
+            "query": "from:curiosity-noreply@quora.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Naukri donotreply",
+            "source": "label:Other",
+            "query": "from:donotreply_mailer@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "foundit",
+            "source": "label:Other",
+            "query": "from:updates@alerts.foundit.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "HasData",
+            "source": "label:Other",
+            "query": "from:roman@hasdata.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Intuit Hiring",
+            "source": "label:Other",
+            "query": "from:hiring@intuit.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "npm",
+            "source": "label:Other",
+            "query": "from:support@npmjs.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "ZebPay",
+            "source": "label:Other",
+            "query": "from:no-reply@email.zebpay.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "TechGig Webinar",
+            "source": "label:Other",
+            "query": "from:expertspeak@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Svix Newsletter",
+            "source": "label:Other",
+            "query": "from:newsletter@svix.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Microsoft",
+            "source": "label:Other",
+            "query": "from:account-security-noreply@accountprotection.microsoft.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Goibibo",
+            "source": "label:Other",
+            "query": "from:noreply@content.goibibo.com",
+            "matched": 0
+          }
+        ]
+      },
+      {
+        "label": "PPF NPS Bank Fundsindia",
+        "rules_applied": 1,
+        "matched": 480,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:PPF NPS Bank Fundsindia",
+            "query": "-has:attachment",
+            "matched": 480
+          }
+        ]
+      },
+      {
+        "label": "Shopping and Online Purchases",
+        "rules_applied": 46,
+        "matched": 82,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "MakeMyTrip",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@makemytrip.com",
+            "matched": 9
+          },
+          {
+            "rule_name": "Zomato Order",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:updates@myntra.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@mailers.zomato.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "MakeMyTrip/myBiz",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@zen-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber Receipts",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@uber.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiGo",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:reservations@customer.goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "IRCTC",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:ticketadmin@irctc.co.in",
+            "matched": 2
+          },
+          {
+            "rule_name": "Urban Ladder",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:hello@urbanladder.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@swiggy.in",
+            "matched": 2
+          },
+          {
+            "rule_name": "ICICI Bank",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:alert@icicibank.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Nykaa",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@nykaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BookMyShow",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:tickets@bookmyshow.email",
+            "matched": 1
+          },
+          {
+            "rule_name": "Ferns N Petals",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@fnp.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Agarwal Packers",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:customercare.claims@agarwalpackers.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sarah Beth Yoga",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:Support@sarahbethyoga.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "ClearTax",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:support@notifications.cleartax.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiGo GST",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:6EGSTInvoice@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@ncp.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BlaBlaCar",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:hello@blablacar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "bigbasket",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:alert@info.bigbasket.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip Rail",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:railservice@makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Razorpay",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@razorpay.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "goIndiGo Services",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:services@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato Dining",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:dining@zomato.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Shiprocket",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:info@net.shiprocket.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:uber@uber.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "SpiceJet Itinerary",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:itinerary@spicejet.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "SpiceJet",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@spicejet.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "OrderYourChoice",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:info@orderyourchoice.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "PayPal",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:service@intl.paypal.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Minimalist",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:help@beminimalist.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart nct",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@nct.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart rmt",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@rmt.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AJIO Ship",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:ship-confirm@ajio.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Pay",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:google-pay-noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart ncb",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@ncb.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Shopify stores",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:t.shopifyemail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bus GST Invoice",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:donotreply@busgst.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Scentkart",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:care@scentkart.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip zen2",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@zen2-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiQube",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:helpdesk@indiqube.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Goibibo",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@content.goibibo.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "goIndiGo Reservations",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:reservations@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy Alerts",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:alerts@updates.swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra Info",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:info@myntra.com",
+            "matched": 57
+          }
+        ]
+      }
+    ],
+    "timestamp": "2026-03-22T18:39:39.982141"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Mediclaim and Life Insurance",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 97,
+    "timestamp": "2026-03-22T18:40:27.268155"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Company Communications",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 331,
+    "timestamp": "2026-03-22T18:40:29.846177"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "PPF NPS Bank Fundsindia",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 480,
+    "timestamp": "2026-03-22T18:40:37.175027"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Shopping and Online Purchases",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 82,
+    "timestamp": "2026-03-22T18:40:54.326791"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 220,
+    "timestamp": "2026-03-22T18:41:04.871159"
+  },
+  {
+    "mode": "preview",
+    "labels_processed": 5,
+    "total_matched": 1376,
+    "total_trashed": 0,
+    "results": [
+      {
+        "label": "Company Communications",
+        "rules_applied": 1,
+        "matched": 241,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:Company Communications",
+            "query": "-has:attachment",
+            "matched": 241
+          }
+        ]
+      },
+      {
+        "label": "Mediclaim and Life Insurance",
+        "rules_applied": 1,
+        "matched": 18,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:Mediclaim and Life Insurance",
+            "query": "-has:attachment",
+            "matched": 18
+          }
+        ]
+      },
+      {
+        "label": "Other",
+        "rules_applied": 66,
+        "matched": 235,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Risebird",
+            "source": "label:Other",
+            "query": "from:notification@risebird.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Reddit",
+            "source": "label:Other",
+            "query": "from:noreply@redditmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora Digest",
+            "source": "label:Other",
+            "query": "from:english-quora-digest@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "iimjobs",
+            "source": "label:Other",
+            "query": "from:info@iimjobs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Medium",
+            "source": "label:Other",
+            "query": "from:noreply@medium.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Nykaa",
+            "source": "label:Other",
+            "query": "from:noreply@nykaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "NYT",
+            "source": "label:Other",
+            "query": "from:nytdirect@nytimes.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra",
+            "source": "label:Other",
+            "query": "from:updates@myntra.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BankBazaar credit card",
+            "source": "label:Other",
+            "query": "from:creditcard+ratealert@bankbazaar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "PyImageSearch",
+            "source": "label:Other",
+            "query": "from:adrian@pyimagesearch.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Glassdoor",
+            "source": "label:Other",
+            "query": "from:noreply@glassdoor.com",
+            "matched": 16
+          },
+          {
+            "rule_name": "BankBazaar credit report",
+            "source": "label:Other",
+            "query": "from:creditreport+ratealert@bankbazaar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora personalized",
+            "source": "label:Other",
+            "query": "from:english-personalized-digest@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sarah Beth Yoga",
+            "source": "label:Other",
+            "query": "from:Support@sarahbethyoga.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato",
+            "source": "label:Other",
+            "query": "from:noreply@mailers.zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipped.ai",
+            "source": "label:Other",
+            "query": "from:flipped-newsletter@mail.beehiiv.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Finxter",
+            "source": "label:Other",
+            "query": "from:chris@finxter.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Scaler",
+            "source": "label:Other",
+            "query": "from:hello@scaler.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Cloud",
+            "source": "label:Other",
+            "query": "from:CloudPlatform-noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "GitHub",
+            "source": "label:Other",
+            "query": "from:noreply@github.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "ClearTax",
+            "source": "label:Other",
+            "query": "from:support@cleartax.in",
+            "matched": 5
+          },
+          {
+            "rule_name": "bigbasket",
+            "source": "label:Other",
+            "query": "from:alert@info.bigbasket.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri Alerts",
+            "source": "label:Other",
+            "query": "from:naukrialerts@naukri.com",
+            "matched": 141
+          },
+          {
+            "rule_name": "EaseMyTrip",
+            "source": "label:Other",
+            "query": "from:connect@easemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Udemy",
+            "source": "label:Other",
+            "query": "from:no-reply@e.udemymail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri toptier",
+            "source": "label:Other",
+            "query": "from:toptier@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Eximat recruiter",
+            "source": "label:Other",
+            "query": "from:careersc2tpbGxzY2FwaXRhbC5pbw==@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AJIO",
+            "source": "label:Other",
+            "query": "from:alert@mailer.ajio.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Towards Data Science",
+            "source": "label:Other",
+            "query": "from:newsletter@towardsdatascience.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri",
+            "source": "label:Other",
+            "query": "from:info@naukri.com",
+            "matched": 67
+          },
+          {
+            "rule_name": "Google noreply",
+            "source": "label:Other",
+            "query": "from:no-reply@accounts.google.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "LinkedIn",
+            "source": "label:Other",
+            "query": "from:updates-noreply@linkedin.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy",
+            "source": "label:Other",
+            "query": "from:noreply@swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Kaggle",
+            "source": "label:Other",
+            "query": "from:no-reply@kaggle.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber",
+            "source": "label:Other",
+            "query": "from:uber@uber.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Jeevansathi Contacts",
+            "source": "label:Other",
+            "query": "from:contacts@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "TechGig News",
+            "source": "label:Other",
+            "query": "from:technews@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip",
+            "source": "label:Other",
+            "query": "from:noreply@zen-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Matches",
+            "source": "label:Other",
+            "query": "from:matchalert@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent500",
+            "source": "label:Other",
+            "query": "from:info@talent500.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "upGrad",
+            "source": "label:Other",
+            "query": "from:noreply@support.upgrad.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Info",
+            "source": "label:Other",
+            "query": "from:info@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Udemy Students",
+            "source": "label:Other",
+            "query": "from:hello@students.udemy.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "sRide",
+            "source": "label:Other",
+            "query": "from:support@sride.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "greatmail spam",
+            "source": "label:Other",
+            "query": "from:newsletters@greatmail.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "CiteHR",
+            "source": "label:Other",
+            "query": "from:cite@citemailer.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Lenskart",
+            "source": "label:Other",
+            "query": "from:service@en.lenskart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "NoBroker",
+            "source": "label:Other",
+            "query": "from:hello@nobroker.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "GitHub notifications",
+            "source": "label:Other",
+            "query": "from:notifications@github.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Turing",
+            "source": "label:Other",
+            "query": "from:communications@turing.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Location Sharing",
+            "source": "label:Other",
+            "query": "from:noreply-location-sharing@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "plusoasis spam",
+            "source": "label:Other",
+            "query": "from:info@smt.plusoasis.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google noreply",
+            "source": "label:Other",
+            "query": "from:noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AmbitionBox",
+            "source": "label:Other",
+            "query": "from:no-reply@ambitionbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent500 Aditi",
+            "source": "label:Other",
+            "query": "from:aditi@talent500.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora Curiosity",
+            "source": "label:Other",
+            "query": "from:curiosity-noreply@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri donotreply",
+            "source": "label:Other",
+            "query": "from:donotreply_mailer@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "foundit",
+            "source": "label:Other",
+            "query": "from:updates@alerts.foundit.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "HasData",
+            "source": "label:Other",
+            "query": "from:roman@hasdata.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Intuit Hiring",
+            "source": "label:Other",
+            "query": "from:hiring@intuit.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "npm",
+            "source": "label:Other",
+            "query": "from:support@npmjs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "ZebPay",
+            "source": "label:Other",
+            "query": "from:no-reply@email.zebpay.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "TechGig Webinar",
+            "source": "label:Other",
+            "query": "from:expertspeak@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Svix Newsletter",
+            "source": "label:Other",
+            "query": "from:newsletter@svix.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Microsoft",
+            "source": "label:Other",
+            "query": "from:account-security-noreply@accountprotection.microsoft.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Goibibo",
+            "source": "label:Other",
+            "query": "from:noreply@content.goibibo.com",
+            "matched": 0
+          }
+        ]
+      },
+      {
+        "label": "PPF NPS Bank Fundsindia",
+        "rules_applied": 1,
+        "matched": 814,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:PPF NPS Bank Fundsindia",
+            "query": "-has:attachment",
+            "matched": 814
+          }
+        ]
+      },
+      {
+        "label": "Shopping and Online Purchases",
+        "rules_applied": 46,
+        "matched": 68,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "MakeMyTrip",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@makemytrip.com",
+            "matched": 9
+          },
+          {
+            "rule_name": "Zomato Order",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:updates@myntra.com",
+            "matched": 10
+          },
+          {
+            "rule_name": "Zomato",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@mailers.zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip/myBiz",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@zen-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber Receipts",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@uber.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "IndiGo",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:reservations@customer.goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "IRCTC",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:ticketadmin@irctc.co.in",
+            "matched": 6
+          },
+          {
+            "rule_name": "Urban Ladder",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:hello@urbanladder.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "ICICI Bank",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:alert@icicibank.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Nykaa",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@nykaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BookMyShow",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:tickets@bookmyshow.email",
+            "matched": 1
+          },
+          {
+            "rule_name": "Ferns N Petals",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@fnp.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Agarwal Packers",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:customercare.claims@agarwalpackers.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sarah Beth Yoga",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:Support@sarahbethyoga.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "ClearTax",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:support@notifications.cleartax.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiGo GST",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:6EGSTInvoice@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@ncp.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BlaBlaCar",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:hello@blablacar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "bigbasket",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:alert@info.bigbasket.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip Rail",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:railservice@makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Razorpay",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@razorpay.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "goIndiGo Services",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:services@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato Dining",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:dining@zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Shiprocket",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:info@net.shiprocket.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:uber@uber.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "SpiceJet Itinerary",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:itinerary@spicejet.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "SpiceJet",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@spicejet.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "OrderYourChoice",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:info@orderyourchoice.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "PayPal",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:service@intl.paypal.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Minimalist",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:help@beminimalist.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart nct",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@nct.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart rmt",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@rmt.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AJIO Ship",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:ship-confirm@ajio.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Pay",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:google-pay-noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart ncb",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@ncb.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Shopify stores",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:t.shopifyemail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bus GST Invoice",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:donotreply@busgst.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Scentkart",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:care@scentkart.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip zen2",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@zen2-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiQube",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:helpdesk@indiqube.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Goibibo",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@content.goibibo.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "goIndiGo Reservations",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:reservations@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy Alerts",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:alerts@updates.swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra Info",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:info@myntra.com",
+            "matched": 39
+          }
+        ]
+      }
+    ],
+    "timestamp": "2026-03-22T19:29:20.331320"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Mediclaim and Life Insurance",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 18,
+    "timestamp": "2026-03-22T19:29:53.244005"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Company Communications",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 241,
+    "timestamp": "2026-03-22T19:29:53.649808"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "PPF NPS Bank Fundsindia",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-22T19:30:02.160660"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "PPF NPS Bank Fundsindia",
+    "batch_start": 500,
+    "batch_size": 500,
+    "trashed": 314,
+    "timestamp": "2026-03-22T19:30:05.940677"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Shopping and Online Purchases",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 68,
+    "timestamp": "2026-03-22T19:30:18.699419"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 235,
+    "timestamp": "2026-03-22T19:30:25.470956"
+  }
+]
