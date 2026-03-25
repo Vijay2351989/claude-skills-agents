@@ -87,19 +87,19 @@ Merge results from all 3 discovery agents:
 2. **Source count** — track how many of the 3 agents found each movie (3/3 = very strong signal)
 3. **Rank by source overlap** — movies found by all 3 agents rank highest
 4. **Apply content filter** — remove any movies that slipped through despite being primarily commercial
-5. **Select top 10-12** candidates for deep research
+5. **Select top 10** candidates for deep research
 
 Present the consolidated candidate list to the user briefly:
 ```
 Found [X] unique candidates across all sources. [Y] movies appeared in multiple sources.
-Proceeding with deep research on top [10-12] candidates...
+Proceeding with deep research on top 10 candidates...
 ```
 
 ---
 
 ## Step 3: Deep Research + OTT Check — Launch Parallel Agents
 
-For each of the top 10-12 candidates, launch **TWO agents simultaneously**:
+For each of the top 10 candidates, launch **TWO agents simultaneously**:
 1. A **360-movie-deep-researcher** for ratings, reviews, word-of-mouth, and content quality
 2. A **360-movie-ott-checker** for streaming availability and subtitle status
 
@@ -136,35 +136,33 @@ Use Agent tool with subagent_type="360-movie-ott-checker"
 
 ---
 
-## Step 4: Scoring Phase — Launch Parallel Scorers
+## Step 4: Scoring Phase — Calculate Inline (No Separate Agents)
 
-First, calculate the **CANDIDATE_MEAN_RATING**: average the IMDB ratings across all researched movies (typically ~6.5-7.0).
+**Do NOT launch separate scorer agents.** Calculate Smart Scores directly from the deep research and OTT data you already have. This saves significant time.
 
-Then launch a **360-movie-scorer** agent for each movie, ALL in parallel.
+### Scoring Formula (calculate for each movie):
 
-```
-Use Agent tool with subagent_type="360-movie-scorer" — one per movie, ALL launched simultaneously
-```
+1. **CANDIDATE_MEAN_RATING**: Average the IMDB ratings across all researched movies (typically ~6.5-7.0).
 
-**Prompt for each:**
-> RESEARCH_DATA:
-> [paste the full deep-researcher output for this movie]
->
-> OTT_DATA:
-> [paste the full ott-checker output for this movie]
->
-> CANDIDATE_MEAN_RATING: [calculated average]
-> SUBTITLE_LANGUAGE: [user's preferred subtitle language]
->
-> Calculate the Smart Score for this movie.
+2. **Rating Score (max 30):** Bayesian-weighted rating using IMDB, RT Critics, RT Audience, Letterboxd, and Metacritic. Weight by review count — a 7.5 with 200K reviews beats a 8.5 with 500 reviews. Use CANDIDATE_MEAN_RATING as the Bayesian prior.
 
-**Wait for all scorers to return.**
+3. **Content Quality Score (max 30):** Based on critical analysis of script, story, direction, thematic depth, originality, and emotional resonance. Films with strong screenplay praise and thematic substance score higher.
+
+4. **Word-of-Mouth Score (max 20):** Based on organic buzz longevity, sustained recommendations, audience-driven discovery, and repeat viewing signals. New releases (<6 months) are capped at 15/20 to account for unproven longevity.
+
+5. **Critic-Audience Alignment (max 10):** How closely critics and general audiences agree. Large RT critic/audience gaps or IMDB vs. Letterboxd divergence reduces this score.
+
+6. **Accessibility Score (max 10):** OTT availability in user's region + subtitle/dub availability in user's preferred language. Full marks if available on a subscription platform with the requested subtitle/dub language. Zero if not available on any platform or no subtitles in requested language.
+
+**Total Smart Score = Rating + Content + WoM + Alignment + Accessibility (out of 100)**
 
 ---
 
 ## Step 5: Final Ranking & Presentation
 
-Sort all movies by Smart Score (highest first) and present the top 10.
+### Splitting the list:
+1. **Main list:** Movies that have the user's requested subtitle/dub language available on OTT. Rank by Smart Score (highest first).
+2. **Honorable Mentions:** Up to 5 excellent movies that scored well on content quality but LACK the user's requested subtitle/dub language. **NEVER skip this section** — if a movie is genuinely great but fails only on subtitle/dub availability, it MUST appear here. These are too good to leave out entirely.
 
 ### Output Format
 
@@ -180,7 +178,7 @@ Sort all movies by Smart Score (highest first) and present the top 10.
 
 ---
 
-## Top 10 Recommendations
+## Top Recommendations (with [subtitle language] available)
 
 ### #1. [Movie Title] ([Year]) — Smart Score: [XX]/100
 **Director:** [Name] | **Language:** [Language] | **Country:** [Country]
@@ -199,20 +197,35 @@ Sort all movies by Smart Score (highest first) and present the top 10.
 
 **What Audiences Say:** [1-2 lines on word-of-mouth nature and duration]
 
-**Watch On:** [Platform(s)] | **Subtitles:** [Available languages / N/A]
+**Watch On:** [Platform(s)] | **[subtitle language]:** [Dubbed / Subtitles / Both]
 
 **Score Breakdown:** Rating: [X]/30 | Content: [X]/30 | WoM: [X]/20 | Alignment: [X]/10 | Access: [X]/10
 
 ---
-[Repeat for #2 through #10]
+[Repeat for remaining qualifying movies]
+---
+
+## Honorable Mentions (No [subtitle language] subs/dub — but too good to skip)
+
+These films scored exceptionally on content quality but do NOT have [subtitle language] subtitles or dubbing on any OTT platform in [region]. Listed because they are genuinely outstanding and the user should know about them.
+
+| # | Movie | Year | IMDB | Why It's Great | Watch On | Available Languages |
+|---|-------|------|------|----------------|----------|---------------------|
+| 1 | **[Title]** | [Year] | X.X | [1-2 sentence pitch] | [Platform] | [e.g., English only] |
+| 2 | ... | ... | ... | ... | ... | ... |
+[Up to 5 honorable mentions]
+
 ---
 
 ## Quick Reference
 
-| # | Movie | Year | Score | IMDB | Watch On | Subtitles | Source Overlap |
-|---|-------|------|-------|------|----------|-----------|---------------|
-| 1 | ... | ... | XX | X.X | Platform | Y/N | 3/3 |
-| 2 | ... | ... | XX | X.X | Platform | Y/N | 2/3 |
+| # | Movie | Year | Score | IMDB | Watch On | [subtitle language] | Source Overlap |
+|---|-------|------|-------|------|----------|---------------------|---------------|
+| 1 | ... | ... | XX | X.X | Platform | Dubbed/Subs/Both | 3/3 |
+| 2 | ... | ... | XX | X.X | Platform | Dubbed/Subs/Both | 2/3 |
+| ... |
+| **Honorable Mentions** |
+| H1 | ... | ... | — | X.X | Platform | No [subtitle language] | 3/3 |
 | ... |
 
 ---
@@ -222,6 +235,7 @@ Sort all movies by Smart Score (highest first) and present the top 10.
 > content quality analysis (script and story over commercial appeal), word-of-mouth longevity
 > (still recommended years later > opening week hype), and critic-audience alignment.
 > New releases (<6 months) have capped word-of-mouth scores to account for unproven longevity.
+> Accessibility (OTT + subtitle/dub availability) is scored separately.
 ```
 
 ---
@@ -276,3 +290,6 @@ Use movie #X as a reference:
 5. **Don't pad the list.** If only 7 movies deserve recommendation, present 7 — not 10 with filler.
 6. **Subtitles matter.** For non-native films, subtitle availability directly impacts whether the user can watch it.
 7. **Show the source overlap.** Movies found by all 3 discovery agents are stronger candidates.
+8. **No separate scorer agents.** Calculate Smart Scores inline from the research data — do NOT launch 360-movie-scorer agents. This saves ~10 agents and significant time.
+9. **NEVER skip Honorable Mentions.** If a movie is genuinely excellent but lacks the user's requested subtitle/dub language, it MUST appear in the Honorable Mentions section (up to 5 films). Great cinema should not be invisible just because of a subtitle gap. The user deserves to know about these films.
+10. **Agent budget.** Total agents per run: 3 (discovery) + 20 (research + OTT) = **23 maximum**. No more.
