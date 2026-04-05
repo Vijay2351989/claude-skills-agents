@@ -1,0 +1,1707 @@
+{
+  "generic_rules": [],
+  "label_rules": {
+    "Company Communications": [
+      {
+        "name": "Emails without attachments",
+        "has_attachment": false
+      }
+    ],
+    "Mediclaim and Life Insurance": [
+      {
+        "name": "Emails without attachments",
+        "has_attachment": false
+      }
+    ],
+    "Other": [
+      {
+        "name": "Risebird",
+        "from_contains": "notification@risebird.io"
+      },
+      {
+        "name": "Reddit",
+        "from_contains": "noreply@redditmail.com"
+      },
+      {
+        "name": "Quora Digest",
+        "from_contains": "english-quora-digest@quora.com"
+      },
+      {
+        "name": "iimjobs",
+        "from_contains": "info@iimjobs.com"
+      },
+      {
+        "name": "Medium",
+        "from_contains": "noreply@medium.com"
+      },
+      {
+        "name": "Nykaa",
+        "from_contains": "noreply@nykaa.com"
+      },
+      {
+        "name": "NYT",
+        "from_contains": "nytdirect@nytimes.com"
+      },
+      {
+        "name": "Myntra",
+        "from_contains": "updates@myntra.com"
+      },
+      {
+        "name": "BankBazaar credit card",
+        "from_contains": "creditcard+ratealert@bankbazaar.com"
+      },
+      {
+        "name": "PyImageSearch",
+        "from_contains": "adrian@pyimagesearch.com"
+      },
+      {
+        "name": "Glassdoor",
+        "from_contains": "noreply@glassdoor.com"
+      },
+      {
+        "name": "BankBazaar credit report",
+        "from_contains": "creditreport+ratealert@bankbazaar.com"
+      },
+      {
+        "name": "Quora personalized",
+        "from_contains": "english-personalized-digest@quora.com"
+      },
+      {
+        "name": "Sarah Beth Yoga",
+        "from_contains": "Support@sarahbethyoga.com"
+      },
+      {
+        "name": "Zomato",
+        "from_contains": "noreply@mailers.zomato.com"
+      },
+      {
+        "name": "Flipped.ai",
+        "from_contains": "flipped-newsletter@mail.beehiiv.com"
+      },
+      {
+        "name": "Finxter",
+        "from_contains": "chris@finxter.com"
+      },
+      {
+        "name": "Scaler",
+        "from_contains": "hello@scaler.com"
+      },
+      {
+        "name": "Google Cloud",
+        "from_contains": "CloudPlatform-noreply@google.com"
+      },
+      {
+        "name": "GitHub",
+        "from_contains": "noreply@github.com"
+      },
+      {
+        "name": "ClearTax",
+        "from_contains": "support@cleartax.in"
+      },
+      {
+        "name": "bigbasket",
+        "from_contains": "alert@info.bigbasket.com"
+      },
+      {
+        "name": "Naukri Alerts",
+        "from_contains": "naukrialerts@naukri.com"
+      },
+      {
+        "name": "EaseMyTrip",
+        "from_contains": "connect@easemytrip.com"
+      },
+      {
+        "name": "Udemy",
+        "from_contains": "no-reply@e.udemymail.com"
+      },
+      {
+        "name": "Naukri toptier",
+        "from_contains": "toptier@naukri.com"
+      },
+      {
+        "name": "Eximat recruiter",
+        "from_contains": "careersc2tpbGxzY2FwaXRhbC5pbw==@naukri.com"
+      },
+      {
+        "name": "AJIO",
+        "from_contains": "alert@mailer.ajio.in"
+      },
+      {
+        "name": "Towards Data Science",
+        "from_contains": "newsletter@towardsdatascience.com"
+      },
+      {
+        "name": "Naukri",
+        "from_contains": "info@naukri.com"
+      },
+      {
+        "name": "Google noreply",
+        "from_contains": "no-reply@accounts.google.com"
+      },
+      {
+        "name": "LinkedIn",
+        "from_contains": "updates-noreply@linkedin.com"
+      },
+      {
+        "name": "Swiggy",
+        "from_contains": "noreply@swiggy.in"
+      },
+      {
+        "name": "Kaggle",
+        "from_contains": "no-reply@kaggle.com"
+      },
+      {
+        "name": "Uber",
+        "from_contains": "uber@uber.com"
+      },
+      {
+        "name": "Jeevansathi Contacts",
+        "from_contains": "contacts@jeevansathi.com"
+      },
+      {
+        "name": "TechGig News",
+        "from_contains": "technews@techgig.com"
+      },
+      {
+        "name": "MakeMyTrip",
+        "from_contains": "noreply@zen-makemytrip.com"
+      },
+      {
+        "name": "Jeevansathi Matches",
+        "from_contains": "matchalert@jeevansathi.com"
+      },
+      {
+        "name": "Talent500",
+        "from_contains": "info@talent500.co"
+      },
+      {
+        "name": "upGrad",
+        "from_contains": "noreply@support.upgrad.com"
+      },
+      {
+        "name": "Jeevansathi Info",
+        "from_contains": "info@jeevansathi.com"
+      },
+      {
+        "name": "Udemy Students",
+        "from_contains": "hello@students.udemy.com"
+      },
+      {
+        "name": "sRide",
+        "from_contains": "support@sride.co"
+      },
+      {
+        "name": "greatmail spam",
+        "from_contains": "newsletters@greatmail.in"
+      },
+      {
+        "name": "CiteHR",
+        "from_contains": "cite@citemailer.com"
+      },
+      {
+        "name": "Lenskart",
+        "from_contains": "service@en.lenskart.com"
+      },
+      {
+        "name": "NoBroker",
+        "from_contains": "hello@nobroker.in"
+      },
+      {
+        "name": "GitHub notifications",
+        "from_contains": "notifications@github.com"
+      },
+      {
+        "name": "Turing",
+        "from_contains": "communications@turing.com"
+      },
+      {
+        "name": "Google Location Sharing",
+        "from_contains": "noreply-location-sharing@google.com"
+      },
+      {
+        "name": "plusoasis spam",
+        "from_contains": "info@smt.plusoasis.com"
+      },
+      {
+        "name": "Google noreply",
+        "from_contains": "noreply@google.com"
+      },
+      {
+        "name": "AmbitionBox",
+        "from_contains": "no-reply@ambitionbox.com"
+      },
+      {
+        "name": "Talent500 Aditi",
+        "from_contains": "aditi@talent500.co"
+      },
+      {
+        "name": "Quora Curiosity",
+        "from_contains": "curiosity-noreply@quora.com"
+      },
+      {
+        "name": "Naukri donotreply",
+        "from_contains": "donotreply_mailer@naukri.com"
+      },
+      {
+        "name": "foundit",
+        "from_contains": "updates@alerts.foundit.in"
+      },
+      {
+        "name": "HasData",
+        "from_contains": "roman@hasdata.com"
+      },
+      {
+        "name": "Intuit Hiring",
+        "from_contains": "hiring@intuit.com"
+      },
+      {
+        "name": "npm",
+        "from_contains": "support@npmjs.com"
+      },
+      {
+        "name": "ZebPay",
+        "from_contains": "no-reply@email.zebpay.com"
+      },
+      {
+        "name": "TechGig Webinar",
+        "from_contains": "expertspeak@techgig.com"
+      },
+      {
+        "name": "Svix Newsletter",
+        "from_contains": "newsletter@svix.io"
+      },
+      {
+        "name": "Microsoft",
+        "from_contains": "account-security-noreply@accountprotection.microsoft.com"
+      },
+      {
+        "name": "Goibibo",
+        "from_contains": "noreply@content.goibibo.com"
+      },
+      {
+        "name": "Facebookmail (2430)",
+        "from_contains": "notification+zrdoiev1hpvf@facebookmail.com"
+      },
+      {
+        "name": "Shopatbest (594)",
+        "from_contains": "newsletters@shopatbest.com"
+      },
+      {
+        "name": "Door2Inbox (420)",
+        "from_contains": "newsletters@door2inbox.com"
+      },
+      {
+        "name": "Emaily (263)",
+        "from_contains": "newsletters@emaily.in"
+      },
+      {
+        "name": "Mailonspot (262)",
+        "from_contains": "newsletters@mailonspot.com"
+      },
+      {
+        "name": "M2I (248)",
+        "from_contains": "newsletters@m2i.in"
+      },
+      {
+        "name": "Facebookmail (223)",
+        "from_contains": "update+zrdoiev1hpvf@facebookmail.com"
+      },
+      {
+        "name": "Fashiongup (183)",
+        "from_contains": "newsletters@fashiongup.in"
+      },
+      {
+        "name": "Educationation (180)",
+        "from_contains": "newsletters@educationation.pro"
+      },
+      {
+        "name": "Digital (154)",
+        "from_contains": "admin@digital.findstay.in"
+      },
+      {
+        "name": "Growfinserv (150)",
+        "from_contains": "info@growfinserv.com"
+      },
+      {
+        "name": "Smtpmailbox (86)",
+        "from_contains": "newsletters@smtpmailbox.com"
+      },
+      {
+        "name": "Namomail (77)",
+        "from_contains": "newsletters@namomail.com"
+      },
+      {
+        "name": "Brandshop (75)",
+        "from_contains": "newsletters@brandshop.co.in"
+      },
+      {
+        "name": "Zenxmail (66)",
+        "from_contains": "newsletters@zenxmail.com"
+      },
+      {
+        "name": "Wwfmails (57)",
+        "from_contains": "newsletters@wwfmails.com"
+      },
+      {
+        "name": "Monsterindia (55)",
+        "from_contains": "jobmessenger@monsterindia.com"
+      },
+      {
+        "name": "Freetalkie (54)",
+        "from_contains": "notification@freetalkie.com"
+      },
+      {
+        "name": "Jobs (47)",
+        "from_contains": "jobs@jobs.shine.com"
+      },
+      {
+        "name": "Naytr (45)",
+        "from_contains": "newsletters@naytr.co.in"
+      },
+      {
+        "name": "Postfixbox (45)",
+        "from_contains": "newsletters@postfixbox.com"
+      },
+      {
+        "name": "Jobseekc (40)",
+        "from_contains": "info@jobseekc.co"
+      },
+      {
+        "name": "Magicmails (40)",
+        "from_contains": "newsletters@magicmails.in"
+      },
+      {
+        "name": "Buzz India (35)",
+        "from_contains": "newsletters@buzz-india.com"
+      },
+      {
+        "name": "160By2Inbox (34)",
+        "from_contains": "noreply@160by2inbox.com"
+      },
+      {
+        "name": "Tixart (32)",
+        "from_contains": "newsletters@tixart.in"
+      },
+      {
+        "name": "Unqiueindia (31)",
+        "from_contains": "newsletter@unqiueindia.com"
+      },
+      {
+        "name": "Movies (28)",
+        "from_contains": "newsletters@movies.airtelupdate.in"
+      },
+      {
+        "name": "Keepitinbox (25)",
+        "from_contains": "newsletters@keepitinbox.com"
+      },
+      {
+        "name": "Techgig (23)",
+        "from_contains": "contest@techgig.com"
+      },
+      {
+        "name": "Airtelupdate (21)",
+        "from_contains": "newsletters@airtelupdate.in"
+      },
+      {
+        "name": "Edureka (20)",
+        "from_contains": "neha@edureka.co"
+      },
+      {
+        "name": "Myntra (18)",
+        "from_contains": "info@myntra.com"
+      },
+      {
+        "name": "Jobsalert (17)",
+        "from_contains": "alerts@jobsalert.shine.com"
+      },
+      {
+        "name": "Pbengage (17)",
+        "from_contains": "info@pbengage.payback.in"
+      },
+      {
+        "name": "Quora (17)",
+        "from_contains": "english-digest-noreply@quora.com"
+      },
+      {
+        "name": "Check2Inbox (17)",
+        "from_contains": "newsletters@check2inbox.com"
+      },
+      {
+        "name": "Thetrainingprofs (17)",
+        "from_contains": "info@thetrainingprofs.com"
+      },
+      {
+        "name": "Ssp4 (16)",
+        "from_contains": "newsletter@ssp4.brainbear.in"
+      },
+      {
+        "name": "New (16)",
+        "from_contains": "support@new.bestloansdeal.com"
+      },
+      {
+        "name": "Fakesup (15)",
+        "from_contains": "newsletters@fakesup.com"
+      },
+      {
+        "name": "Mc (15)",
+        "from_contains": "info@mc.shiningindiaa.com"
+      },
+      {
+        "name": "Linkedin (13)",
+        "from_contains": "jobs-noreply@linkedin.com"
+      },
+      {
+        "name": "Urbanpro (12)",
+        "from_contains": "urbanpro-no-reply@urbanpro.com"
+      },
+      {
+        "name": "Zyngamail (12)",
+        "from_contains": "notifications+vvv49oki3z1uhw@zyngamail.com"
+      },
+      {
+        "name": "Crm (11)",
+        "from_contains": "info@crm.homethycare.com"
+      },
+      {
+        "name": "Hackerrankmail (11)",
+        "from_contains": "no-reply@hackerrankmail.com"
+      },
+      {
+        "name": "Spectra (11)",
+        "from_contains": "donotreply@spectra.co"
+      },
+      {
+        "name": "Myntra (11)",
+        "from_contains": "support@myntra.com"
+      },
+      {
+        "name": "Tripshrip (10)",
+        "from_contains": "notifications@tripshrip.com"
+      },
+      {
+        "name": "Gmail (10)",
+        "from_contains": "bela.bhatt123@gmail.com"
+      },
+      {
+        "name": "Lybrate (10)",
+        "from_contains": "hello@lybrate.com"
+      },
+      {
+        "name": "Blmail (10)",
+        "from_contains": "notifications@blmail.buddyloan.in"
+      },
+      {
+        "name": "Shinealerts (10)",
+        "from_contains": "alerts@shinealerts.com"
+      },
+      {
+        "name": "Jobrapidoalert (10)",
+        "from_contains": "alert@jobrapidoalert.com"
+      },
+      {
+        "name": "Mails (9)",
+        "from_contains": "info@mails.shiningindiaa.com"
+      },
+      {
+        "name": "Backendmails (9)",
+        "from_contains": "newsletters@backendmails.com"
+      },
+      {
+        "name": "Earmermail (9)",
+        "from_contains": "contact@earmermail.com"
+      },
+      {
+        "name": "Fropper (9)",
+        "from_contains": "memberservices@fropper.com"
+      },
+      {
+        "name": "Uidai (8)",
+        "from_contains": "aadhaar@uidai.gov.in"
+      },
+      {
+        "name": "Neo4J (8)",
+        "from_contains": "aura@neo4j.com"
+      },
+      {
+        "name": "Greatlearning (8)",
+        "from_contains": "cloudcomputing@greatlearning.in"
+      },
+      {
+        "name": "Softedgeit (8)",
+        "from_contains": "mangesh.dhoot@softedgeit.com"
+      },
+      {
+        "name": "Toplevelmail (8)",
+        "from_contains": "newsletters@toplevelmail.com"
+      },
+      {
+        "name": "Perfectinbox (8)",
+        "from_contains": "newsletters@perfectinbox.com"
+      },
+      {
+        "name": "2Coms (8)",
+        "from_contains": "anchal@2coms.com"
+      },
+      {
+        "name": "Greatlearning (7)",
+        "from_contains": "iitb_epgd.ai_ds@greatlearning.in"
+      },
+      {
+        "name": "Simplilearnmailer (7)",
+        "from_contains": "updates@simplilearnmailer.com"
+      },
+      {
+        "name": "Bluefirsthr (7)",
+        "from_contains": "nitish@bluefirsthr.in"
+      },
+      {
+        "name": "Oristay (7)",
+        "from_contains": "info@oristay.in"
+      },
+      {
+        "name": "Irctc (7)",
+        "from_contains": "irctctourismoffers@irctc.co.in"
+      },
+      {
+        "name": "Sampoorna (7)",
+        "from_contains": "keshav.sharma.del@sampoorna.com"
+      },
+      {
+        "name": "Mc (7)",
+        "from_contains": "info@mc.progressingindia.com"
+      },
+      {
+        "name": "Getmailinbox (7)",
+        "from_contains": "newsletters@getmailinbox.com"
+      },
+      {
+        "name": "Jobsinfinance (7)",
+        "from_contains": "info@jobsinfinance.in"
+      },
+      {
+        "name": "Joshshop (7)",
+        "from_contains": "offers@joshshop.ncm01.com"
+      },
+      {
+        "name": "Orangetreeglobal (7)",
+        "from_contains": "info@orangetreeglobal.com"
+      },
+      {
+        "name": "Jobsalert (6)",
+        "from_contains": "jobs@jobsalert.shine.com"
+      },
+      {
+        "name": "Zen2 Makemytrip (6)",
+        "from_contains": "no-reply@zen2-makemytrip.com"
+      },
+      {
+        "name": "Swiggy (6)",
+        "from_contains": "no-reply@swiggy.in"
+      },
+      {
+        "name": "Greatlearning (6)",
+        "from_contains": "raj.shukla@greatlearning.in"
+      },
+      {
+        "name": "Homeservices (6)",
+        "from_contains": "info@homeservices.nobroker.in"
+      },
+      {
+        "name": "Techgig (6)",
+        "from_contains": "user@techgig.com"
+      },
+      {
+        "name": "Inbox48 (6)",
+        "from_contains": "info@inbox48.displayinbox.com"
+      },
+      {
+        "name": "Grillorfry (6)",
+        "from_contains": "info@grillorfry.com"
+      },
+      {
+        "name": "Simplilearn (6)",
+        "from_contains": "simant.samal@simplilearn.net"
+      },
+      {
+        "name": "Spectra (6)",
+        "from_contains": "care@spectra.co"
+      },
+      {
+        "name": "Monsterindia (6)",
+        "from_contains": "opportunities@monsterindia.com"
+      },
+      {
+        "name": "Digi (6)",
+        "from_contains": "info@digi.mailscart.com"
+      },
+      {
+        "name": "Content (6)",
+        "from_contains": "holiday@content.goibibo.com"
+      },
+      {
+        "name": "Referhire (6)",
+        "from_contains": "notify@referhire.com"
+      },
+      {
+        "name": "Vatsnew (6)",
+        "from_contains": "newsletter@vatsnew.info"
+      },
+      {
+        "name": "Mafoirandstad (6)",
+        "from_contains": "rakesh.chowdhury@mafoirandstad.com"
+      },
+      {
+        "name": "Techgig (5)",
+        "from_contains": "promotion@techgig.com"
+      },
+      {
+        "name": "M (5)",
+        "from_contains": "team@m.ngrok.com"
+      },
+      {
+        "name": "Godaddy (5)",
+        "from_contains": "donotreply@godaddy.com"
+      },
+      {
+        "name": "Bitbucket (5)",
+        "from_contains": "notifications-noreply@bitbucket.org"
+      },
+      {
+        "name": "Linkedin (5)",
+        "from_contains": "messaging-digest-noreply@linkedin.com"
+      },
+      {
+        "name": "Tax2Win (5)",
+        "from_contains": "save@tax2win.in"
+      },
+      {
+        "name": "Elastic (5)",
+        "from_contains": "vijay.bhatt@elastic.run"
+      },
+      {
+        "name": "Skillenza (5)",
+        "from_contains": "subhendu@skillenza.com"
+      },
+      {
+        "name": "Passportindia (5)",
+        "from_contains": "passport.admin@passportindia.gov.in"
+      },
+      {
+        "name": "Hackerearth (5)",
+        "from_contains": "mails@hackerearth.com"
+      },
+      {
+        "name": "Crm (5)",
+        "from_contains": "info@crm.sonyliv.com"
+      },
+      {
+        "name": "Adobe (5)",
+        "from_contains": "message@adobe.com"
+      },
+      {
+        "name": "Greatlearning (5)",
+        "from_contains": "neha.m@greatlearning.in"
+      },
+      {
+        "name": "Veritas (5)",
+        "from_contains": "sachin.mirpuri@veritas.com"
+      },
+      {
+        "name": "Finolux (5)",
+        "from_contains": "newsletters@finolux.com"
+      },
+      {
+        "name": "Consumerconnect (5)",
+        "from_contains": "newsletters@consumerconnect.in"
+      },
+      {
+        "name": "Sulekha (5)",
+        "from_contains": "info@sulekha.com"
+      },
+      {
+        "name": "Hod (5)",
+        "from_contains": "connect@hod.life"
+      },
+      {
+        "name": "Sonyliv (5)",
+        "from_contains": "mailer@sonyliv.com"
+      },
+      {
+        "name": "Quora (5)",
+        "from_contains": "follow-suggestion-noreply@quora.com"
+      },
+      {
+        "name": "Bnke (5)",
+        "from_contains": "amit.mishra@bnke.com"
+      },
+      {
+        "name": "Gmail (5)",
+        "from_contains": "neha.melodious@gmail.com"
+      },
+      {
+        "name": "Hsbc (5)",
+        "from_contains": "recruitmentsdpi@hsbc.co.in"
+      },
+      {
+        "name": "Huggingface (4)",
+        "from_contains": "website@huggingface.co"
+      },
+      {
+        "name": "E Mails (4)",
+        "from_contains": "windowsinsiderprogram@e-mails.microsoft.com"
+      },
+      {
+        "name": "Sonarsource (4)",
+        "from_contains": "hello@sonarsource.email"
+      },
+      {
+        "name": "Engage (4)",
+        "from_contains": "info@engage.y-axis.com"
+      },
+      {
+        "name": "Bajajfinance (4)",
+        "from_contains": "info@bajajfinance.com"
+      },
+      {
+        "name": "Ccbill (4)",
+        "from_contains": "support@ccbill.com"
+      },
+      {
+        "name": "Mail (4)",
+        "from_contains": "sap@mail.sap.com"
+      },
+      {
+        "name": "Vonage (4)",
+        "from_contains": "devrel-team@vonage.com"
+      },
+      {
+        "name": "Marketing (4)",
+        "from_contains": "updates@marketing.descript.com"
+      },
+      {
+        "name": "Blablacar (4)",
+        "from_contains": "hello@blablacar.com"
+      },
+      {
+        "name": "Irctc (4)",
+        "from_contains": "ticketadmin@irctc.co.in"
+      },
+      {
+        "name": "Zoom (4)",
+        "from_contains": "no-reply@zoom.us"
+      },
+      {
+        "name": "Info (4)",
+        "from_contains": "no-reply@info.incometax.gov.in"
+      },
+      {
+        "name": "Twitter (4)",
+        "from_contains": "verify@twitter.com"
+      },
+      {
+        "name": "Oracle (4)",
+        "from_contains": "oracle-acct_ww@oracle.com"
+      },
+      {
+        "name": "Whizlabs (4)",
+        "from_contains": "support@whizlabs.com"
+      },
+      {
+        "name": "Programmingpathshala (4)",
+        "from_contains": "anoop@programmingpathshala.com"
+      },
+      {
+        "name": "Gmail (4)",
+        "from_contains": "dariuusrkotharii@gmail.com"
+      },
+      {
+        "name": "Tothenew (4)",
+        "from_contains": "ritishree.geda@tothenew.com"
+      },
+      {
+        "name": "Gmail (4)",
+        "from_contains": "rsverma89@gmail.com"
+      },
+      {
+        "name": "Sm (4)",
+        "from_contains": "info@sm.progressingindia.com"
+      },
+      {
+        "name": "Veritas (4)",
+        "from_contains": "manish.gupta@veritas.com"
+      },
+      {
+        "name": "Explore (4)",
+        "from_contains": "newsletters@explore.urbanclap.in"
+      },
+      {
+        "name": "Certificationguru (4)",
+        "from_contains": "info@certificationguru.co.in"
+      },
+      {
+        "name": "Jetprivilege (4)",
+        "from_contains": "jpinfo@jetprivilege.com"
+      },
+      {
+        "name": "Gmail (4)",
+        "from_contains": "talent.times@gmail.com"
+      },
+      {
+        "name": "Gmail (4)",
+        "from_contains": "debasmita.yb@gmail.com"
+      },
+      {
+        "name": "Geniusconsultant (4)",
+        "from_contains": "stirkey@geniusconsultant.com"
+      },
+      {
+        "name": "Gmail (4)",
+        "from_contains": "neha.bhatt321@gmail.com"
+      },
+      {
+        "name": "Microsoftonline (3)",
+        "from_contains": "msonlineservicesteam@microsoftonline.com"
+      },
+      {
+        "name": "Newsletters (3)",
+        "from_contains": "tamanna.yadav@newsletters.analyticsvidhya.com"
+      },
+      {
+        "name": "Foundit (3)",
+        "from_contains": "opportunities@foundit.in"
+      },
+      {
+        "name": "Course (3)",
+        "from_contains": "iitb_epgd.ai_as@course.mygreatlearning.com"
+      },
+      {
+        "name": "Getrecall (3)",
+        "from_contains": "sankari@getrecall.ai"
+      },
+      {
+        "name": "Paypal (3)",
+        "from_contains": "donotreply@paypal.com"
+      },
+      {
+        "name": "Nagarro (3)",
+        "from_contains": "ravinder.kaur@nagarro.com"
+      },
+      {
+        "name": "E (3)",
+        "from_contains": "email@e.godaddy.com"
+      },
+      {
+        "name": "Uplers (3)",
+        "from_contains": "talent@uplers.network"
+      },
+      {
+        "name": "Krista (3)",
+        "from_contains": "noreply-eng@krista.ai"
+      },
+      {
+        "name": "Alerts (3)",
+        "from_contains": "info@alerts.foundit.in"
+      },
+      {
+        "name": "Y Axis (3)",
+        "from_contains": "sfadmin@y-axis.com"
+      },
+      {
+        "name": "Info (3)",
+        "from_contains": "alerts@info.sonyliv.com"
+      },
+      {
+        "name": "Paytmoffers (3)",
+        "from_contains": "noreply@paytmoffers.in"
+      },
+      {
+        "name": "Tophire (3)",
+        "from_contains": "sameer.parwani@tophire.co"
+      },
+      {
+        "name": "Uber (3)",
+        "from_contains": "uber.india@uber.com"
+      },
+      {
+        "name": "Sarahbethyoga (3)",
+        "from_contains": "info@sarahbethyoga.com"
+      },
+      {
+        "name": "Foppscolor (3)",
+        "from_contains": "notify@foppscolor.com"
+      },
+      {
+        "name": "Interviewbit (3)",
+        "from_contains": "info@interviewbit.com"
+      },
+      {
+        "name": "Zeta (3)",
+        "from_contains": "no-reply@zeta.in"
+      },
+      {
+        "name": "Programmingpathshala (3)",
+        "from_contains": "promotions@programmingpathshala.com"
+      },
+      {
+        "name": "Twilio (3)",
+        "from_contains": "no-reply@twilio.com"
+      },
+      {
+        "name": "On24Event (3)",
+        "from_contains": "do_not_reply@on24event.com"
+      },
+      {
+        "name": "Passionconnect (3)",
+        "from_contains": "akshima@passionconnect.co"
+      },
+      {
+        "name": "Googlemail (3)",
+        "from_contains": "mailer-daemon@googlemail.com"
+      },
+      {
+        "name": "Nsdl (3)",
+        "from_contains": "nsr@nsdl.co.in"
+      },
+      {
+        "name": "Mailclues (3)",
+        "from_contains": "info@mailclues.info"
+      },
+      {
+        "name": "Litmusblox (3)",
+        "from_contains": "hello@litmusblox.io"
+      },
+      {
+        "name": "Gmail (3)",
+        "from_contains": "shubhamblackbag@gmail.com"
+      },
+      {
+        "name": "Carsorax (3)",
+        "from_contains": "noreply@carsorax.com"
+      },
+      {
+        "name": "Edm (3)",
+        "from_contains": "update@edm.shop-on-mail.com"
+      },
+      {
+        "name": "Mailhexa (3)",
+        "from_contains": "newsletters@mailhexa.com"
+      },
+      {
+        "name": "Isconmail (3)",
+        "from_contains": "newsletters@isconmail.com"
+      },
+      {
+        "name": "Mailgoogly (3)",
+        "from_contains": "newsletters@mailgoogly.com"
+      },
+      {
+        "name": "Jio (3)",
+        "from_contains": "notification@jio.com"
+      },
+      {
+        "name": "Email (3)",
+        "from_contains": "newsletter@email.payback.in"
+      },
+      {
+        "name": "Alerts (3)",
+        "from_contains": "recruiter@alerts.shine.com"
+      },
+      {
+        "name": "Skilledin (3)",
+        "from_contains": "newsletters@skilledin.co.in"
+      },
+      {
+        "name": "Monsterindia (3)",
+        "from_contains": "info@monsterindia.com"
+      },
+      {
+        "name": "Ed Email (3)",
+        "from_contains": "info@ed-email.techtarget.com"
+      },
+      {
+        "name": "Lists (3)",
+        "from_contains": "searchoracle@lists.techtarget.com"
+      },
+      {
+        "name": "Mailsap (3)",
+        "from_contains": "sap@mailsap.com"
+      },
+      {
+        "name": "Techtarget (3)",
+        "from_contains": "no_reply@techtarget.com"
+      },
+      {
+        "name": "Email (3)",
+        "from_contains": "info@email.skype.com"
+      },
+      {
+        "name": "Rvsolutions (3)",
+        "from_contains": "careeer.tsg@rvsolutions.in"
+      },
+      {
+        "name": "Orionedutech (3)",
+        "from_contains": "sourcing.kolkata@orionedutech.com"
+      },
+      {
+        "name": "2Coms (3)",
+        "from_contains": "antara@2coms.com"
+      },
+      {
+        "name": "Gmail (3)",
+        "from_contains": "titasde08@gmail.com"
+      },
+      {
+        "name": "Irctc (2)",
+        "from_contains": "customerawareness@irctc.co.in"
+      },
+      {
+        "name": "Em (2)",
+        "from_contains": "linkedin@em.linkedin.com"
+      },
+      {
+        "name": "Linkedin (2)",
+        "from_contains": "jobs-listings@linkedin.com"
+      },
+      {
+        "name": "Email (2)",
+        "from_contains": "noreply@email.openai.com"
+      },
+      {
+        "name": "Bmc (2)",
+        "from_contains": "talent_acquisition@bmc.com"
+      },
+      {
+        "name": "Pnm (2)",
+        "from_contains": "info@pnm.nobroker.in"
+      },
+      {
+        "name": "Modal (2)",
+        "from_contains": "greta@modal.com"
+      },
+      {
+        "name": "Google (2)",
+        "from_contains": "no-reply@google.com"
+      },
+      {
+        "name": "Apartmentadda (2)",
+        "from_contains": "support@apartmentadda.com"
+      },
+      {
+        "name": "Modal (2)",
+        "from_contains": "billing@modal.com"
+      },
+      {
+        "name": "Confluent (2)",
+        "from_contains": "info@confluent.io"
+      },
+      {
+        "name": "Marketing (2)",
+        "from_contains": "newsletter@marketing.descript.com"
+      },
+      {
+        "name": "Hdfcfund (2)",
+        "from_contains": "noresponse@hdfcfund.com"
+      },
+      {
+        "name": "Splitwise (2)",
+        "from_contains": "hello@splitwise.com"
+      },
+      {
+        "name": "Pinecone (2)",
+        "from_contains": "community@pinecone.io"
+      },
+      {
+        "name": "News (2)",
+        "from_contains": "communications@news.apilayer.com"
+      },
+      {
+        "name": "Valueresearchonline (2)",
+        "from_contains": "newsletters@valueresearchonline.net"
+      },
+      {
+        "name": "Pipedream (2)",
+        "from_contains": "sacerdoti@pipedream.com"
+      },
+      {
+        "name": "Vellum (2)",
+        "from_contains": "noa@vellum.ai"
+      },
+      {
+        "name": "Vellum (2)",
+        "from_contains": "ben@vellum.ai"
+      },
+      {
+        "name": "Vellum (2)",
+        "from_contains": "anita@vellum.ai"
+      },
+      {
+        "name": "Info (2)",
+        "from_contains": "support@info.y-axis.com"
+      },
+      {
+        "name": "Turing (2)",
+        "from_contains": "no-reply@turing.com"
+      },
+      {
+        "name": "Aixfeedback (2)",
+        "from_contains": "noreply@aixfeedback.airindiaexpress.com"
+      },
+      {
+        "name": "Service (2)",
+        "from_contains": "recall@service.usepylon.com"
+      },
+      {
+        "name": "Upskill (2)",
+        "from_contains": "microsoft-gen-ai@upskill.mygreatlearning.com"
+      },
+      {
+        "name": "Indiqube (2)",
+        "from_contains": "helpdesk@indiqube.com"
+      },
+      {
+        "name": "Discord (2)",
+        "from_contains": "notifications@discord.com"
+      },
+      {
+        "name": "Ngrok (2)",
+        "from_contains": "contact@ngrok.com"
+      },
+      {
+        "name": "Tatatel (2)",
+        "from_contains": "priyankagupta.gupta.ys@tatatel.co.in"
+      },
+      {
+        "name": "Ongrid (2)",
+        "from_contains": "no-reply@ongrid.in"
+      },
+      {
+        "name": "Inbound (2)",
+        "from_contains": "operati-14194621-183519-9acaa@inbound.gohire-mail.com"
+      },
+      {
+        "name": "Affix (2)",
+        "from_contains": "no-reply@affix.com.au"
+      },
+      {
+        "name": "Scalingtheory (2)",
+        "from_contains": "keerthana@scalingtheory.com"
+      },
+      {
+        "name": "Olibr (2)",
+        "from_contains": "noreply@olibr.com"
+      },
+      {
+        "name": "Teksystems (2)",
+        "from_contains": "hbatra@teksystems.com"
+      },
+      {
+        "name": "Careers (2)",
+        "from_contains": "no-reply@careers.accenture.com"
+      },
+      {
+        "name": "Mailer (2)",
+        "from_contains": "hello@mailer.interviewbit.com"
+      },
+      {
+        "name": "Phonepe (2)",
+        "from_contains": "noreply@phonepe.com"
+      },
+      {
+        "name": "Tophire (2)",
+        "from_contains": "joby.varghese@tophire.co"
+      },
+      {
+        "name": "Diamondpick (2)",
+        "from_contains": "akanksha.khankriyal@diamondpick.com"
+      },
+      {
+        "name": "Tophire (2)",
+        "from_contains": "geetali.oberoi@tophire.co"
+      },
+      {
+        "name": "Service (2)",
+        "from_contains": "info@service.icicipruamc.com"
+      },
+      {
+        "name": "Intuit (2)",
+        "from_contains": "talent@intuit.com"
+      },
+      {
+        "name": "Travis Ci (2)",
+        "from_contains": "support@travis-ci.com"
+      },
+      {
+        "name": "Notify (2)",
+        "from_contains": "no-reply@notify.docker.com"
+      },
+      {
+        "name": "Risebird (2)",
+        "from_contains": "ronak_jain@risebird.io"
+      },
+      {
+        "name": "Tophire (2)",
+        "from_contains": "trisha.datta@tophire.co"
+      },
+      {
+        "name": "Notifications (2)",
+        "from_contains": "support@notifications.cleartax.in"
+      },
+      {
+        "name": "Conduktor (2)",
+        "from_contains": "philip@conduktor.io"
+      },
+      {
+        "name": "Hirepro (2)",
+        "from_contains": "anusha.saraf@hirepro.in"
+      },
+      {
+        "name": "Itr (2)",
+        "from_contains": "info@itr.info.codecademy.com"
+      },
+      {
+        "name": "Updates (2)",
+        "from_contains": "alerts@updates.swiggy.in"
+      },
+      {
+        "name": "Aws (2)",
+        "from_contains": "password-reset-noreply@aws.amazon.com"
+      },
+      {
+        "name": "Gmail (2)",
+        "from_contains": "crckmvn@gmail.com"
+      },
+      {
+        "name": "Gmail (2)",
+        "from_contains": "peoplelabsincpvtltd@gmail.com"
+      },
+      {
+        "name": "Turing (2)",
+        "from_contains": "support@turing.com"
+      },
+      {
+        "name": "Synechron (2)",
+        "from_contains": "veena.m1@synechron.com"
+      },
+      {
+        "name": "Bigsteptech (2)",
+        "from_contains": "dheeraj.chauhan@bigsteptech.com"
+      },
+      {
+        "name": "Gmail (2)",
+        "from_contains": "dpresumes3@gmail.com"
+      },
+      {
+        "name": "Linkedin (2)",
+        "from_contains": "security-noreply@linkedin.com"
+      },
+      {
+        "name": "Gmail (2)",
+        "from_contains": "akash09agrawal@gmail.com"
+      },
+      {
+        "name": "Twilio (2)",
+        "from_contains": "support@twilio.zendesk.com"
+      },
+      {
+        "name": "Programmingpathshala (2)",
+        "from_contains": "info@programmingpathshala.com"
+      },
+      {
+        "name": "Slack (2)",
+        "from_contains": "notification@slack.com"
+      },
+      {
+        "name": "Codingame (2)",
+        "from_contains": "no-reply@codingame.com"
+      },
+      {
+        "name": "Fyimailer (2)",
+        "from_contains": "newsletter@fyimailer.com"
+      },
+      {
+        "name": "Hdfc (2)",
+        "from_contains": "noreply@hdfc.com"
+      },
+      {
+        "name": "Nagarro (2)",
+        "from_contains": "teamhiring@nagarro.com"
+      },
+      {
+        "name": "Tophire (2)",
+        "from_contains": "alene@tophire.co"
+      },
+      {
+        "name": "Emails (2)",
+        "from_contains": "notification@emails.avast.com"
+      },
+      {
+        "name": "Promo (2)",
+        "from_contains": "notifications@promo.buddyloan.in"
+      },
+      {
+        "name": "Talentahead (2)",
+        "from_contains": "nitin@talentahead.com"
+      },
+      {
+        "name": "Blazemeter (2)",
+        "from_contains": "do-not-reply@blazemeter.com"
+      },
+      {
+        "name": "Gmail (2)",
+        "from_contains": "manoj.matrixsolutionplacement@gmail.com"
+      },
+      {
+        "name": "Pubnub (2)",
+        "from_contains": "pubnub@pubnub.com"
+      },
+      {
+        "name": "Incedoinc (2)",
+        "from_contains": "arti.singhal@incedoinc.com"
+      },
+      {
+        "name": "Theshein (2)",
+        "from_contains": "newsletter@theshein.com"
+      },
+      {
+        "name": "Dm (2)",
+        "from_contains": "imnewsletter@dm.jetprivilege.com"
+      },
+      {
+        "name": "Outlook (2)",
+        "from_contains": "swati.sharma@outlook.in"
+      },
+      {
+        "name": "Nexmo (2)",
+        "from_contains": "no-replies@nexmo.com"
+      },
+      {
+        "name": "Hackerearth (2)",
+        "from_contains": "support@hackerearth.com"
+      },
+      {
+        "name": "Sampoorna (2)",
+        "from_contains": "mary.priyanka.blr@sampoorna.com"
+      },
+      {
+        "name": "Sampoorna (2)",
+        "from_contains": "urmila.singh.del@sampoorna.com"
+      },
+      {
+        "name": "Talent21 (2)",
+        "from_contains": "v.vamshi@talent21.in"
+      },
+      {
+        "name": "Pluralsight (2)",
+        "from_contains": "admin@pluralsight.com"
+      },
+      {
+        "name": "Gmail (2)",
+        "from_contains": "studiodevd@gmail.com"
+      },
+      {
+        "name": "Synechron (2)",
+        "from_contains": "mrityuanjai.pandey@synechron.com"
+      },
+      {
+        "name": "Expertease (2)",
+        "from_contains": "sandhya.s@expertease.co.in"
+      },
+      {
+        "name": "Sampoorna (2)",
+        "from_contains": "rohit.pandey.del@sampoorna.com"
+      },
+      {
+        "name": "Ecsindia (2)",
+        "from_contains": "prabhat@ecsindia.in"
+      },
+      {
+        "name": "Cpc (2)",
+        "from_contains": "intimations@cpc.gov.in"
+      },
+      {
+        "name": "Bluejeans (2)",
+        "from_contains": "invite@bluejeans.com"
+      },
+      {
+        "name": "Peoplebridge (2)",
+        "from_contains": "poojakaushal@peoplebridge.in"
+      },
+      {
+        "name": "Gokaarts (2)",
+        "from_contains": "info@gokaarts.com"
+      },
+      {
+        "name": "Magnemit (2)",
+        "from_contains": "newsletter@magnemit.com"
+      },
+      {
+        "name": "Mta (2)",
+        "from_contains": "update@mta.updates-on-mail.com"
+      },
+      {
+        "name": "Epost2 (2)",
+        "from_contains": "update@epost2.blogonmail.com"
+      },
+      {
+        "name": "Em (2)",
+        "from_contains": "update@em.offer-update-mail.com"
+      },
+      {
+        "name": "Crm (2)",
+        "from_contains": "update@crm.news-on-mail.com"
+      },
+      {
+        "name": "Epost (2)",
+        "from_contains": "update@epost.blogonmail.com"
+      },
+      {
+        "name": "Custcomm (2)",
+        "from_contains": "information@custcomm.icicibank.com"
+      },
+      {
+        "name": "Mails (2)",
+        "from_contains": "no-reply@mails.travel-makemytrip.com"
+      },
+      {
+        "name": "Olacabs (2)",
+        "from_contains": "noreply@olacabs.com"
+      },
+      {
+        "name": "Parallelssoft (2)",
+        "from_contains": "no-reply@parallelssoft.com"
+      },
+      {
+        "name": "Quora (2)",
+        "from_contains": "follow-noreply@quora.com"
+      },
+      {
+        "name": "Preemptive (2)",
+        "from_contains": "marketing@preemptive.com"
+      },
+      {
+        "name": "Tatadocomo (2)",
+        "from_contains": "alert@tatadocomo.com"
+      },
+      {
+        "name": "Gmail (2)",
+        "from_contains": "priya.iitcansults@gmail.com"
+      },
+      {
+        "name": "Adeo (2)",
+        "from_contains": "hiya.r@adeo.co.in"
+      },
+      {
+        "name": "Gmail (2)",
+        "from_contains": "hrsolution.iso9001@gmail.com"
+      },
+      {
+        "name": "Ybservices (2)",
+        "from_contains": "madhumita@ybservices.net"
+      },
+      {
+        "name": "Gmail (2)",
+        "from_contains": "mousumi705@gmail.com"
+      },
+      {
+        "name": "Sisgain (2)",
+        "from_contains": "alok.kumar@sisgain.com"
+      },
+      {
+        "name": "Entl (2)",
+        "from_contains": "ambika.r@entl.net"
+      }
+    ],
+    "PPF NPS Bank Fundsindia": [
+      {
+        "name": "Emails without attachments",
+        "has_attachment": false
+      }
+    ],
+    "Shopping and Online Purchases": [
+      {
+        "name": "MakeMyTrip",
+        "from_contains": "noreply@makemytrip.com"
+      },
+      {
+        "name": "Zomato Order",
+        "from_contains": "noreply@zomato.com"
+      },
+      {
+        "name": "Myntra",
+        "from_contains": "updates@myntra.com"
+      },
+      {
+        "name": "Zomato",
+        "from_contains": "noreply@mailers.zomato.com"
+      },
+      {
+        "name": "MakeMyTrip/myBiz",
+        "from_contains": "noreply@zen-makemytrip.com"
+      },
+      {
+        "name": "Uber Receipts",
+        "from_contains": "noreply@uber.com"
+      },
+      {
+        "name": "IndiGo",
+        "from_contains": "reservations@customer.goindigo.in"
+      },
+      {
+        "name": "IRCTC",
+        "from_contains": "ticketadmin@irctc.co.in"
+      },
+      {
+        "name": "Urban Ladder",
+        "from_contains": "hello@urbanladder.com"
+      },
+      {
+        "name": "Swiggy",
+        "from_contains": "no-reply@swiggy.in"
+      },
+      {
+        "name": "ICICI Bank",
+        "from_contains": "alert@icicibank.com"
+      },
+      {
+        "name": "Nykaa",
+        "from_contains": "noreply@nykaa.com"
+      },
+      {
+        "name": "BookMyShow",
+        "from_contains": "tickets@bookmyshow.email"
+      },
+      {
+        "name": "Ferns N Petals",
+        "from_contains": "noreply@fnp.com"
+      },
+      {
+        "name": "Agarwal Packers",
+        "from_contains": "customercare.claims@agarwalpackers.com"
+      },
+      {
+        "name": "Sarah Beth Yoga",
+        "from_contains": "Support@sarahbethyoga.com"
+      },
+      {
+        "name": "ClearTax",
+        "from_contains": "support@notifications.cleartax.in"
+      },
+      {
+        "name": "IndiGo GST",
+        "from_contains": "6EGSTInvoice@goindigo.in"
+      },
+      {
+        "name": "Flipkart",
+        "from_contains": "no-reply@ncp.flipkart.com"
+      },
+      {
+        "name": "BlaBlaCar",
+        "from_contains": "hello@blablacar.com"
+      },
+      {
+        "name": "bigbasket",
+        "from_contains": "alert@info.bigbasket.com"
+      },
+      {
+        "name": "MakeMyTrip Rail",
+        "from_contains": "railservice@makemytrip.com"
+      },
+      {
+        "name": "Razorpay",
+        "from_contains": "no-reply@razorpay.com"
+      },
+      {
+        "name": "goIndiGo Services",
+        "from_contains": "services@goindigo.in"
+      },
+      {
+        "name": "Zomato Dining",
+        "from_contains": "dining@zomato.com"
+      },
+      {
+        "name": "Shiprocket",
+        "from_contains": "info@net.shiprocket.in"
+      },
+      {
+        "name": "Uber",
+        "from_contains": "uber@uber.com"
+      },
+      {
+        "name": "SpiceJet Itinerary",
+        "from_contains": "itinerary@spicejet.com"
+      },
+      {
+        "name": "SpiceJet",
+        "from_contains": "noreply@spicejet.com"
+      },
+      {
+        "name": "OrderYourChoice",
+        "from_contains": "info@orderyourchoice.com"
+      },
+      {
+        "name": "PayPal",
+        "from_contains": "service@intl.paypal.com"
+      },
+      {
+        "name": "Minimalist",
+        "from_contains": "help@beminimalist.co"
+      },
+      {
+        "name": "Flipkart nct",
+        "from_contains": "no-reply@nct.flipkart.com"
+      },
+      {
+        "name": "Flipkart rmt",
+        "from_contains": "no-reply@rmt.flipkart.com"
+      },
+      {
+        "name": "AJIO Ship",
+        "from_contains": "ship-confirm@ajio.com"
+      },
+      {
+        "name": "Google Pay",
+        "from_contains": "google-pay-noreply@google.com"
+      },
+      {
+        "name": "Flipkart ncb",
+        "from_contains": "no-reply@ncb.flipkart.com"
+      },
+      {
+        "name": "Shopify stores",
+        "from_contains": "t.shopifyemail.com"
+      },
+      {
+        "name": "Bus GST Invoice",
+        "from_contains": "donotreply@busgst.in"
+      },
+      {
+        "name": "Scentkart",
+        "from_contains": "care@scentkart.in"
+      },
+      {
+        "name": "MakeMyTrip zen2",
+        "from_contains": "no-reply@zen2-makemytrip.com"
+      },
+      {
+        "name": "IndiQube",
+        "from_contains": "helpdesk@indiqube.com"
+      },
+      {
+        "name": "Goibibo",
+        "from_contains": "noreply@content.goibibo.com"
+      },
+      {
+        "name": "goIndiGo Reservations",
+        "from_contains": "reservations@goindigo.in"
+      },
+      {
+        "name": "Swiggy Alerts",
+        "from_contains": "alerts@updates.swiggy.in"
+      },
+      {
+        "name": "Myntra Info",
+        "from_contains": "info@myntra.com"
+      }
+    ]
+  }
+}

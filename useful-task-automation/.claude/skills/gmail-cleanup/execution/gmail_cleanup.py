@@ -94,7 +94,7 @@ def get_label_id_map(service):
     return {l["name"]: l["id"] for l in results.get("labels", [])}
 
 
-def build_query_from_rule(rule):
+def build_query_from_rule(rule, cutoff_date=None):
     """Build a Gmail search query string from a rule dict.
 
     Supported rule fields:
@@ -105,8 +105,13 @@ def build_query_from_rule(rule):
       is_unread: bool            — is unread
       query: str                 — raw Gmail search query (advanced)
       size_larger_than: str      — size larger than (e.g. "5M", "1M")
+
+    cutoff_date: str (YYYY/MM/DD) — if provided, only match emails before this date
     """
     parts = []
+
+    if cutoff_date:
+        parts.append(f"before:{cutoff_date}")
 
     if "older_than_days" in rule:
         days = rule["older_than_days"]
@@ -232,7 +237,7 @@ def trash_emails(service, msg_ids):
     return trashed
 
 
-def process_label(service, label_name, label_id, generic_rules, label_rules, dry_run=True):
+def process_label(service, label_name, label_id, generic_rules, label_rules, dry_run=True, cutoff_date=None):
     """Process a single label: apply generic + label-specific rules."""
     all_rules = []
 
@@ -253,8 +258,8 @@ def process_label(service, label_name, label_id, generic_rules, label_rules, dry
     for rule in all_rules:
         rule_copy = {k: v for k, v in rule.items() if k != "source"}
         source = rule.get("source", "unknown")
-        name = rule.get("name", build_query_from_rule(rule_copy))
-        query = build_query_from_rule(rule_copy)
+        name = rule.get("name", build_query_from_rule(rule_copy, cutoff_date=cutoff_date))
+        query = build_query_from_rule(rule_copy, cutoff_date=cutoff_date)
 
         if not query.strip():
             continue
@@ -307,7 +312,7 @@ def show_stats(service):
     list_labels(service)
 
 
-def fetch_and_save_ids(service, label_name, label_id, generic_rules, label_rules):
+def fetch_and_save_ids(service, label_name, label_id, generic_rules, label_rules, cutoff_date=None):
     """Fetch all matching email IDs for a label and save to data/<label>_ids.json.
     Returns the count of unique IDs."""
     all_rules = list(generic_rules) + list(label_rules)
@@ -316,7 +321,7 @@ def fetch_and_save_ids(service, label_name, label_id, generic_rules, label_rules
 
     all_ids = []
     for rule in all_rules:
-        query = build_query_from_rule(rule)
+        query = build_query_from_rule(rule, cutoff_date=cutoff_date)
         if not query.strip():
             continue
         print(f"  Rule: {rule.get('name', query)}")
@@ -382,6 +387,8 @@ def main():
     parser.add_argument("--label", type=str, help="Process only this label")
     parser.add_argument("--start", type=int, default=0, help="Batch start index (for --trash-batch)")
     parser.add_argument("--size", type=int, default=500, help="Batch size (for --trash-batch)")
+    parser.add_argument("--before", type=str, default=None,
+                        help="Cutoff date — only delete emails BEFORE this date (YYYY/MM/DD)")
     args = parser.parse_args()
 
     if not any([args.list_labels, args.preview, args.cleanup, args.stats, args.fetch_ids, args.trash_batch]):
@@ -413,7 +420,9 @@ def main():
         generic_rules = rules.get("generic_rules", [])
         label_rules = rules.get("label_rules", {}).get(args.label, [])
         print(f"\n[{args.label}] Fetching matching email IDs...")
-        count = fetch_and_save_ids(service, args.label, label_id_map[args.label], generic_rules, label_rules)
+        if args.before:
+            print(f"  Cutoff date: only emails before {args.before}")
+        count = fetch_and_save_ids(service, args.label, label_id_map[args.label], generic_rules, label_rules, cutoff_date=args.before)
         print(f"\nDone. {count} emails ready for deletion.")
         return
 
@@ -465,6 +474,8 @@ def main():
     print(f"  Generic rules: {len(generic_rules)}")
     print(f"  Labels with specific rules: {len(label_rules_map)}")
     print(f"  Target labels: {len(target_labels)}")
+    if args.before:
+        print(f"  Cutoff date: only emails before {args.before}")
     print(f"{'=' * 60}\n")
 
     all_results = []
@@ -481,7 +492,7 @@ def main():
         result = process_label(
             service, label_name, label_id,
             generic_rules, label_specific,
-            dry_run=dry_run
+            dry_run=dry_run, cutoff_date=args.before
         )
         all_results.append(result)
 

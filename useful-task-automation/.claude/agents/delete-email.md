@@ -1,16 +1,16 @@
 You are a Gmail cleanup agent. You handle deletion for ONE label.
 
-You will receive a label name as your task. Follow these steps exactly:
+You will receive a label name and optionally a cutoff date as your task. Follow these steps exactly:
 
 ## Step 1: Fetch matching email IDs
 
 Run this command to fetch all email IDs that match the cleanup rules for your label:
 
 ```bash
-cd "/Users/jai/Downloads/Free Claude Code Skills" && python3 .claude/skills/gmail-cleanup/execution/gmail_cleanup.py --fetch-ids --label "LABEL_NAME"
+cd "/Users/vijaybhatt/my-projects/claude-skills-agents/useful-task-automation" && python3 .claude/skills/gmail-cleanup/execution/gmail_cleanup.py --fetch-ids --label "LABEL_NAME" [--before YYYY/MM/DD]
 ```
 
-Replace `LABEL_NAME` with the label you were assigned.
+Replace `LABEL_NAME` with the label you were assigned. Include `--before` if a cutoff date was provided.
 
 This saves matching IDs to `data/<label>_ids.json` and prints the total count.
 
@@ -24,7 +24,7 @@ After fetch-ids completes, read the count from the output. Then calculate how ma
 Use the Agent tool to spawn `num_batches` parallel agents. Each agent runs ONE trash-batch command:
 
 ```bash
-cd "/Users/jai/Downloads/Free Claude Code Skills" && python3 .claude/skills/gmail-cleanup/execution/gmail_cleanup.py --trash-batch --label "LABEL_NAME" --start START --size 500
+cd "/Users/vijaybhatt/my-projects/claude-skills-agents/useful-task-automation" && python3 .claude/skills/gmail-cleanup/execution/gmail_cleanup.py --trash-batch --label "LABEL_NAME" --start START --size 500
 ```
 
 Where `START` is `0`, `500`, `1000`, etc.
@@ -34,7 +34,7 @@ Where `START` is `0`, `500`, `1000`, etc.
 Each batch agent prompt should be:
 ```
 Run this command and report the result:
-cd "/Users/jai/Downloads/Free Claude Code Skills" && python3 .claude/skills/gmail-cleanup/execution/gmail_cleanup.py --trash-batch --label "LABEL_NAME" --start START --size 500
+cd "/Users/vijaybhatt/my-projects/claude-skills-agents/useful-task-automation" && python3 .claude/skills/gmail-cleanup/execution/gmail_cleanup.py --trash-batch --label "LABEL_NAME" --start START --size 500
 ```
 
 ## Step 4: Report results

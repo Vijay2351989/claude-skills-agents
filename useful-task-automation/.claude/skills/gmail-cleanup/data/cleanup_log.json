@@ -1754,5 +1754,6016 @@
     "batch_size": 500,
     "trashed": 235,
     "timestamp": "2026-03-22T19:30:25.470956"
+  },
+  {
+    "mode": "preview",
+    "labels_processed": 5,
+    "total_matched": 2025,
+    "total_trashed": 0,
+    "results": [
+      {
+        "label": "Company Communications",
+        "rules_applied": 1,
+        "matched": 235,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:Company Communications",
+            "query": "-has:attachment",
+            "matched": 235
+          }
+        ]
+      },
+      {
+        "label": "Mediclaim and Life Insurance",
+        "rules_applied": 1,
+        "matched": 7,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:Mediclaim and Life Insurance",
+            "query": "-has:attachment",
+            "matched": 7
+          }
+        ]
+      },
+      {
+        "label": "Other",
+        "rules_applied": 66,
+        "matched": 906,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Risebird",
+            "source": "label:Other",
+            "query": "from:notification@risebird.io",
+            "matched": 4
+          },
+          {
+            "rule_name": "Reddit",
+            "source": "label:Other",
+            "query": "from:noreply@redditmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora Digest",
+            "source": "label:Other",
+            "query": "from:english-quora-digest@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "iimjobs",
+            "source": "label:Other",
+            "query": "from:info@iimjobs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Medium",
+            "source": "label:Other",
+            "query": "from:noreply@medium.com",
+            "matched": 8
+          },
+          {
+            "rule_name": "Nykaa",
+            "source": "label:Other",
+            "query": "from:noreply@nykaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "NYT",
+            "source": "label:Other",
+            "query": "from:nytdirect@nytimes.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra",
+            "source": "label:Other",
+            "query": "from:updates@myntra.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BankBazaar credit card",
+            "source": "label:Other",
+            "query": "from:creditcard+ratealert@bankbazaar.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "PyImageSearch",
+            "source": "label:Other",
+            "query": "from:adrian@pyimagesearch.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Glassdoor",
+            "source": "label:Other",
+            "query": "from:noreply@glassdoor.com",
+            "matched": 130
+          },
+          {
+            "rule_name": "BankBazaar credit report",
+            "source": "label:Other",
+            "query": "from:creditreport+ratealert@bankbazaar.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Quora personalized",
+            "source": "label:Other",
+            "query": "from:english-personalized-digest@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sarah Beth Yoga",
+            "source": "label:Other",
+            "query": "from:Support@sarahbethyoga.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato",
+            "source": "label:Other",
+            "query": "from:noreply@mailers.zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipped.ai",
+            "source": "label:Other",
+            "query": "from:flipped-newsletter@mail.beehiiv.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Finxter",
+            "source": "label:Other",
+            "query": "from:chris@finxter.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Scaler",
+            "source": "label:Other",
+            "query": "from:hello@scaler.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Cloud",
+            "source": "label:Other",
+            "query": "from:CloudPlatform-noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "GitHub",
+            "source": "label:Other",
+            "query": "from:noreply@github.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "ClearTax",
+            "source": "label:Other",
+            "query": "from:support@cleartax.in",
+            "matched": 12
+          },
+          {
+            "rule_name": "bigbasket",
+            "source": "label:Other",
+            "query": "from:alert@info.bigbasket.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri Alerts",
+            "source": "label:Other",
+            "query": "from:naukrialerts@naukri.com",
+            "matched": 540
+          },
+          {
+            "rule_name": "EaseMyTrip",
+            "source": "label:Other",
+            "query": "from:connect@easemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Udemy",
+            "source": "label:Other",
+            "query": "from:no-reply@e.udemymail.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Naukri toptier",
+            "source": "label:Other",
+            "query": "from:toptier@naukri.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Eximat recruiter",
+            "source": "label:Other",
+            "query": "from:careersc2tpbGxzY2FwaXRhbC5pbw==@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AJIO",
+            "source": "label:Other",
+            "query": "from:alert@mailer.ajio.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Towards Data Science",
+            "source": "label:Other",
+            "query": "from:newsletter@towardsdatascience.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri",
+            "source": "label:Other",
+            "query": "from:info@naukri.com",
+            "matched": 123
+          },
+          {
+            "rule_name": "Google noreply",
+            "source": "label:Other",
+            "query": "from:no-reply@accounts.google.com",
+            "matched": 36
+          },
+          {
+            "rule_name": "LinkedIn",
+            "source": "label:Other",
+            "query": "from:updates-noreply@linkedin.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy",
+            "source": "label:Other",
+            "query": "from:noreply@swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Kaggle",
+            "source": "label:Other",
+            "query": "from:no-reply@kaggle.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber",
+            "source": "label:Other",
+            "query": "from:uber@uber.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Contacts",
+            "source": "label:Other",
+            "query": "from:contacts@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "TechGig News",
+            "source": "label:Other",
+            "query": "from:technews@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip",
+            "source": "label:Other",
+            "query": "from:noreply@zen-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Matches",
+            "source": "label:Other",
+            "query": "from:matchalert@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent500",
+            "source": "label:Other",
+            "query": "from:info@talent500.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "upGrad",
+            "source": "label:Other",
+            "query": "from:noreply@support.upgrad.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Info",
+            "source": "label:Other",
+            "query": "from:info@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Udemy Students",
+            "source": "label:Other",
+            "query": "from:hello@students.udemy.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "sRide",
+            "source": "label:Other",
+            "query": "from:support@sride.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "greatmail spam",
+            "source": "label:Other",
+            "query": "from:newsletters@greatmail.in",
+            "matched": 37
+          },
+          {
+            "rule_name": "CiteHR",
+            "source": "label:Other",
+            "query": "from:cite@citemailer.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Lenskart",
+            "source": "label:Other",
+            "query": "from:service@en.lenskart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "NoBroker",
+            "source": "label:Other",
+            "query": "from:hello@nobroker.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "GitHub notifications",
+            "source": "label:Other",
+            "query": "from:notifications@github.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Turing",
+            "source": "label:Other",
+            "query": "from:communications@turing.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Location Sharing",
+            "source": "label:Other",
+            "query": "from:noreply-location-sharing@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "plusoasis spam",
+            "source": "label:Other",
+            "query": "from:info@smt.plusoasis.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google noreply",
+            "source": "label:Other",
+            "query": "from:noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AmbitionBox",
+            "source": "label:Other",
+            "query": "from:no-reply@ambitionbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent500 Aditi",
+            "source": "label:Other",
+            "query": "from:aditi@talent500.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora Curiosity",
+            "source": "label:Other",
+            "query": "from:curiosity-noreply@quora.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Naukri donotreply",
+            "source": "label:Other",
+            "query": "from:donotreply_mailer@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "foundit",
+            "source": "label:Other",
+            "query": "from:updates@alerts.foundit.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "HasData",
+            "source": "label:Other",
+            "query": "from:roman@hasdata.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Intuit Hiring",
+            "source": "label:Other",
+            "query": "from:hiring@intuit.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "npm",
+            "source": "label:Other",
+            "query": "from:support@npmjs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "ZebPay",
+            "source": "label:Other",
+            "query": "from:no-reply@email.zebpay.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "TechGig Webinar",
+            "source": "label:Other",
+            "query": "from:expertspeak@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Svix Newsletter",
+            "source": "label:Other",
+            "query": "from:newsletter@svix.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Microsoft",
+            "source": "label:Other",
+            "query": "from:account-security-noreply@accountprotection.microsoft.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Goibibo",
+            "source": "label:Other",
+            "query": "from:noreply@content.goibibo.com",
+            "matched": 3
+          }
+        ]
+      },
+      {
+        "label": "PPF NPS Bank Fundsindia",
+        "rules_applied": 1,
+        "matched": 847,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:PPF NPS Bank Fundsindia",
+            "query": "-has:attachment",
+            "matched": 847
+          }
+        ]
+      },
+      {
+        "label": "Shopping and Online Purchases",
+        "rules_applied": 46,
+        "matched": 30,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "MakeMyTrip",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@makemytrip.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Zomato Order",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@zomato.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Myntra",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:updates@myntra.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@mailers.zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip/myBiz",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@zen-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber Receipts",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@uber.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiGo",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:reservations@customer.goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "IRCTC",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:ticketadmin@irctc.co.in",
+            "matched": 18
+          },
+          {
+            "rule_name": "Urban Ladder",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:hello@urbanladder.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "ICICI Bank",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:alert@icicibank.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Nykaa",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@nykaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BookMyShow",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:tickets@bookmyshow.email",
+            "matched": 0
+          },
+          {
+            "rule_name": "Ferns N Petals",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@fnp.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Agarwal Packers",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:customercare.claims@agarwalpackers.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sarah Beth Yoga",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:Support@sarahbethyoga.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "ClearTax",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:support@notifications.cleartax.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiGo GST",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:6EGSTInvoice@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@ncp.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BlaBlaCar",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:hello@blablacar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "bigbasket",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:alert@info.bigbasket.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip Rail",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:railservice@makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Razorpay",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@razorpay.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "goIndiGo Services",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:services@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato Dining",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:dining@zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Shiprocket",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:info@net.shiprocket.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:uber@uber.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "SpiceJet Itinerary",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:itinerary@spicejet.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "SpiceJet",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@spicejet.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "OrderYourChoice",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:info@orderyourchoice.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "PayPal",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:service@intl.paypal.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Minimalist",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:help@beminimalist.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart nct",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@nct.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart rmt",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@rmt.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AJIO Ship",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:ship-confirm@ajio.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Pay",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:google-pay-noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart ncb",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@ncb.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Shopify stores",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:t.shopifyemail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bus GST Invoice",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:donotreply@busgst.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Scentkart",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:care@scentkart.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip zen2",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:no-reply@zen2-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiQube",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:helpdesk@indiqube.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Goibibo",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:noreply@content.goibibo.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "goIndiGo Reservations",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:reservations@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy Alerts",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:alerts@updates.swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra Info",
+            "source": "label:Shopping and Online Purchases",
+            "query": "from:info@myntra.com",
+            "matched": 0
+          }
+        ]
+      }
+    ],
+    "timestamp": "2026-03-29T19:01:00.582042"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Mediclaim and Life Insurance",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 7,
+    "timestamp": "2026-03-29T19:01:40.647024"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Company Communications",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 235,
+    "timestamp": "2026-03-29T19:01:42.949715"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "PPF NPS Bank Fundsindia",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:01:53.464216"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "PPF NPS Bank Fundsindia",
+    "batch_start": 500,
+    "batch_size": 500,
+    "trashed": 346,
+    "timestamp": "2026-03-29T19:01:56.864759"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:02:11.738703"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Shopping and Online Purchases",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 30,
+    "timestamp": "2026-03-29T19:02:11.916135"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 500,
+    "batch_size": 500,
+    "trashed": 406,
+    "timestamp": "2026-03-29T19:02:15.935715"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:24:59.688269"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:03.798234"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 1000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:06.762473"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 1500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:09.951157"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 2000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:14.160116"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 2500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:19.020122"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 3000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:23.065134"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 3500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:27.291539"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 4000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:31.423982"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 4500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:36.350944"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 5000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:39.886392"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 5500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:42.903972"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 6000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:47.241101"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 6500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:51.346182"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 7000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:55.655517"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 7500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:25:59.521525"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 8000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:03.481978"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 8500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:07.434229"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 9000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:11.629101"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 9500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:15.568873"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 10000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:19.517113"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 10500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:23.472337"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 11000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:27.818229"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 11500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:33.239927"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 12000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:38.052371"
+  },
+  {
+    "mode": "preview",
+    "labels_processed": 1,
+    "total_matched": 20422,
+    "total_trashed": 0,
+    "results": [
+      {
+        "label": "Other",
+        "rules_applied": 374,
+        "matched": 20422,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Risebird",
+            "source": "label:Other",
+            "query": "from:notification@risebird.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Reddit",
+            "source": "label:Other",
+            "query": "from:noreply@redditmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora Digest",
+            "source": "label:Other",
+            "query": "from:english-quora-digest@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "iimjobs",
+            "source": "label:Other",
+            "query": "from:info@iimjobs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Medium",
+            "source": "label:Other",
+            "query": "from:noreply@medium.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Nykaa",
+            "source": "label:Other",
+            "query": "from:noreply@nykaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "NYT",
+            "source": "label:Other",
+            "query": "from:nytdirect@nytimes.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra",
+            "source": "label:Other",
+            "query": "from:updates@myntra.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BankBazaar credit card",
+            "source": "label:Other",
+            "query": "from:creditcard+ratealert@bankbazaar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "PyImageSearch",
+            "source": "label:Other",
+            "query": "from:adrian@pyimagesearch.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Glassdoor",
+            "source": "label:Other",
+            "query": "from:noreply@glassdoor.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BankBazaar credit report",
+            "source": "label:Other",
+            "query": "from:creditreport+ratealert@bankbazaar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora personalized",
+            "source": "label:Other",
+            "query": "from:english-personalized-digest@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sarah Beth Yoga",
+            "source": "label:Other",
+            "query": "from:Support@sarahbethyoga.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato",
+            "source": "label:Other",
+            "query": "from:noreply@mailers.zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipped.ai",
+            "source": "label:Other",
+            "query": "from:flipped-newsletter@mail.beehiiv.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Finxter",
+            "source": "label:Other",
+            "query": "from:chris@finxter.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Scaler",
+            "source": "label:Other",
+            "query": "from:hello@scaler.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Cloud",
+            "source": "label:Other",
+            "query": "from:CloudPlatform-noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "GitHub",
+            "source": "label:Other",
+            "query": "from:noreply@github.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "ClearTax",
+            "source": "label:Other",
+            "query": "from:support@cleartax.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "bigbasket",
+            "source": "label:Other",
+            "query": "from:alert@info.bigbasket.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri Alerts",
+            "source": "label:Other",
+            "query": "from:naukrialerts@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "EaseMyTrip",
+            "source": "label:Other",
+            "query": "from:connect@easemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Udemy",
+            "source": "label:Other",
+            "query": "from:no-reply@e.udemymail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri toptier",
+            "source": "label:Other",
+            "query": "from:toptier@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Eximat recruiter",
+            "source": "label:Other",
+            "query": "from:careersc2tpbGxzY2FwaXRhbC5pbw==@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AJIO",
+            "source": "label:Other",
+            "query": "from:alert@mailer.ajio.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Towards Data Science",
+            "source": "label:Other",
+            "query": "from:newsletter@towardsdatascience.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri",
+            "source": "label:Other",
+            "query": "from:info@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google noreply",
+            "source": "label:Other",
+            "query": "from:no-reply@accounts.google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "LinkedIn",
+            "source": "label:Other",
+            "query": "from:updates-noreply@linkedin.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy",
+            "source": "label:Other",
+            "query": "from:noreply@swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Kaggle",
+            "source": "label:Other",
+            "query": "from:no-reply@kaggle.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber",
+            "source": "label:Other",
+            "query": "from:uber@uber.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Contacts",
+            "source": "label:Other",
+            "query": "from:contacts@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "TechGig News",
+            "source": "label:Other",
+            "query": "from:technews@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip",
+            "source": "label:Other",
+            "query": "from:noreply@zen-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Matches",
+            "source": "label:Other",
+            "query": "from:matchalert@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent500",
+            "source": "label:Other",
+            "query": "from:info@talent500.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "upGrad",
+            "source": "label:Other",
+            "query": "from:noreply@support.upgrad.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Info",
+            "source": "label:Other",
+            "query": "from:info@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Udemy Students",
+            "source": "label:Other",
+            "query": "from:hello@students.udemy.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "sRide",
+            "source": "label:Other",
+            "query": "from:support@sride.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "greatmail spam",
+            "source": "label:Other",
+            "query": "from:newsletters@greatmail.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "CiteHR",
+            "source": "label:Other",
+            "query": "from:cite@citemailer.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Lenskart",
+            "source": "label:Other",
+            "query": "from:service@en.lenskart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "NoBroker",
+            "source": "label:Other",
+            "query": "from:hello@nobroker.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "GitHub notifications",
+            "source": "label:Other",
+            "query": "from:notifications@github.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Turing",
+            "source": "label:Other",
+            "query": "from:communications@turing.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Location Sharing",
+            "source": "label:Other",
+            "query": "from:noreply-location-sharing@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "plusoasis spam",
+            "source": "label:Other",
+            "query": "from:info@smt.plusoasis.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google noreply",
+            "source": "label:Other",
+            "query": "from:noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AmbitionBox",
+            "source": "label:Other",
+            "query": "from:no-reply@ambitionbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent500 Aditi",
+            "source": "label:Other",
+            "query": "from:aditi@talent500.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora Curiosity",
+            "source": "label:Other",
+            "query": "from:curiosity-noreply@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri donotreply",
+            "source": "label:Other",
+            "query": "from:donotreply_mailer@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "foundit",
+            "source": "label:Other",
+            "query": "from:updates@alerts.foundit.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "HasData",
+            "source": "label:Other",
+            "query": "from:roman@hasdata.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Intuit Hiring",
+            "source": "label:Other",
+            "query": "from:hiring@intuit.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "npm",
+            "source": "label:Other",
+            "query": "from:support@npmjs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "ZebPay",
+            "source": "label:Other",
+            "query": "from:no-reply@email.zebpay.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "TechGig Webinar",
+            "source": "label:Other",
+            "query": "from:expertspeak@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Svix Newsletter",
+            "source": "label:Other",
+            "query": "from:newsletter@svix.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Microsoft",
+            "source": "label:Other",
+            "query": "from:account-security-noreply@accountprotection.microsoft.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Goibibo",
+            "source": "label:Other",
+            "query": "from:noreply@content.goibibo.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Facebookmail (2430)",
+            "source": "label:Other",
+            "query": "from:notification+zrdoiev1hpvf@facebookmail.com",
+            "matched": 4947
+          },
+          {
+            "rule_name": "Shopatbest (594)",
+            "source": "label:Other",
+            "query": "from:newsletters@shopatbest.com",
+            "matched": 1908
+          },
+          {
+            "rule_name": "Door2Inbox (420)",
+            "source": "label:Other",
+            "query": "from:newsletters@door2inbox.com",
+            "matched": 1393
+          },
+          {
+            "rule_name": "Emaily (263)",
+            "source": "label:Other",
+            "query": "from:newsletters@emaily.in",
+            "matched": 728
+          },
+          {
+            "rule_name": "Mailonspot (262)",
+            "source": "label:Other",
+            "query": "from:newsletters@mailonspot.com",
+            "matched": 658
+          },
+          {
+            "rule_name": "M2I (248)",
+            "source": "label:Other",
+            "query": "from:newsletters@m2i.in",
+            "matched": 770
+          },
+          {
+            "rule_name": "Facebookmail (223)",
+            "source": "label:Other",
+            "query": "from:update+zrdoiev1hpvf@facebookmail.com",
+            "matched": 736
+          },
+          {
+            "rule_name": "Fashiongup (183)",
+            "source": "label:Other",
+            "query": "from:newsletters@fashiongup.in",
+            "matched": 243
+          },
+          {
+            "rule_name": "Educationation (180)",
+            "source": "label:Other",
+            "query": "from:newsletters@educationation.pro",
+            "matched": 650
+          },
+          {
+            "rule_name": "Digital (154)",
+            "source": "label:Other",
+            "query": "from:admin@digital.findstay.in",
+            "matched": 472
+          },
+          {
+            "rule_name": "Growfinserv (150)",
+            "source": "label:Other",
+            "query": "from:info@growfinserv.com",
+            "matched": 201
+          },
+          {
+            "rule_name": "Smtpmailbox (86)",
+            "source": "label:Other",
+            "query": "from:newsletters@smtpmailbox.com",
+            "matched": 182
+          },
+          {
+            "rule_name": "Namomail (77)",
+            "source": "label:Other",
+            "query": "from:newsletters@namomail.com",
+            "matched": 133
+          },
+          {
+            "rule_name": "Brandshop (75)",
+            "source": "label:Other",
+            "query": "from:newsletters@brandshop.co.in",
+            "matched": 497
+          },
+          {
+            "rule_name": "Zenxmail (66)",
+            "source": "label:Other",
+            "query": "from:newsletters@zenxmail.com",
+            "matched": 147
+          },
+          {
+            "rule_name": "Wwfmails (57)",
+            "source": "label:Other",
+            "query": "from:newsletters@wwfmails.com",
+            "matched": 382
+          },
+          {
+            "rule_name": "Monsterindia (55)",
+            "source": "label:Other",
+            "query": "from:jobmessenger@monsterindia.com",
+            "matched": 451
+          },
+          {
+            "rule_name": "Freetalkie (54)",
+            "source": "label:Other",
+            "query": "from:notification@freetalkie.com",
+            "matched": 210
+          },
+          {
+            "rule_name": "Jobs (47)",
+            "source": "label:Other",
+            "query": "from:jobs@jobs.shine.com",
+            "matched": 112
+          },
+          {
+            "rule_name": "Naytr (45)",
+            "source": "label:Other",
+            "query": "from:newsletters@naytr.co.in",
+            "matched": 82
+          },
+          {
+            "rule_name": "Postfixbox (45)",
+            "source": "label:Other",
+            "query": "from:newsletters@postfixbox.com",
+            "matched": 104
+          },
+          {
+            "rule_name": "Jobseekc (40)",
+            "source": "label:Other",
+            "query": "from:info@jobseekc.co",
+            "matched": 67
+          },
+          {
+            "rule_name": "Magicmails (40)",
+            "source": "label:Other",
+            "query": "from:newsletters@magicmails.in",
+            "matched": 313
+          },
+          {
+            "rule_name": "Buzz India (35)",
+            "source": "label:Other",
+            "query": "from:newsletters@buzz-india.com",
+            "matched": 92
+          },
+          {
+            "rule_name": "160By2Inbox (34)",
+            "source": "label:Other",
+            "query": "from:noreply@160by2inbox.com",
+            "matched": 140
+          },
+          {
+            "rule_name": "Tixart (32)",
+            "source": "label:Other",
+            "query": "from:newsletters@tixart.in",
+            "matched": 43
+          },
+          {
+            "rule_name": "Unqiueindia (31)",
+            "source": "label:Other",
+            "query": "from:newsletter@unqiueindia.com",
+            "matched": 49
+          },
+          {
+            "rule_name": "Movies (28)",
+            "source": "label:Other",
+            "query": "from:newsletters@movies.airtelupdate.in",
+            "matched": 43
+          },
+          {
+            "rule_name": "Keepitinbox (25)",
+            "source": "label:Other",
+            "query": "from:newsletters@keepitinbox.com",
+            "matched": 234
+          },
+          {
+            "rule_name": "Techgig (23)",
+            "source": "label:Other",
+            "query": "from:contest@techgig.com",
+            "matched": 41
+          },
+          {
+            "rule_name": "Airtelupdate (21)",
+            "source": "label:Other",
+            "query": "from:newsletters@airtelupdate.in",
+            "matched": 50
+          },
+          {
+            "rule_name": "Edureka (20)",
+            "source": "label:Other",
+            "query": "from:neha@edureka.co",
+            "matched": 67
+          },
+          {
+            "rule_name": "Myntra (18)",
+            "source": "label:Other",
+            "query": "from:info@myntra.com",
+            "matched": 59
+          },
+          {
+            "rule_name": "Jobsalert (17)",
+            "source": "label:Other",
+            "query": "from:alerts@jobsalert.shine.com",
+            "matched": 26
+          },
+          {
+            "rule_name": "Pbengage (17)",
+            "source": "label:Other",
+            "query": "from:info@pbengage.payback.in",
+            "matched": 19
+          },
+          {
+            "rule_name": "Quora (17)",
+            "source": "label:Other",
+            "query": "from:english-digest-noreply@quora.com",
+            "matched": 29
+          },
+          {
+            "rule_name": "Check2Inbox (17)",
+            "source": "label:Other",
+            "query": "from:newsletters@check2inbox.com",
+            "matched": 49
+          },
+          {
+            "rule_name": "Thetrainingprofs (17)",
+            "source": "label:Other",
+            "query": "from:info@thetrainingprofs.com",
+            "matched": 61
+          },
+          {
+            "rule_name": "Ssp4 (16)",
+            "source": "label:Other",
+            "query": "from:newsletter@ssp4.brainbear.in",
+            "matched": 24
+          },
+          {
+            "rule_name": "New (16)",
+            "source": "label:Other",
+            "query": "from:support@new.bestloansdeal.com",
+            "matched": 28
+          },
+          {
+            "rule_name": "Fakesup (15)",
+            "source": "label:Other",
+            "query": "from:newsletters@fakesup.com",
+            "matched": 26
+          },
+          {
+            "rule_name": "Mc (15)",
+            "source": "label:Other",
+            "query": "from:info@mc.shiningindiaa.com",
+            "matched": 140
+          },
+          {
+            "rule_name": "Linkedin (13)",
+            "source": "label:Other",
+            "query": "from:jobs-noreply@linkedin.com",
+            "matched": 65
+          },
+          {
+            "rule_name": "Urbanpro (12)",
+            "source": "label:Other",
+            "query": "from:urbanpro-no-reply@urbanpro.com",
+            "matched": 26
+          },
+          {
+            "rule_name": "Zyngamail (12)",
+            "source": "label:Other",
+            "query": "from:notifications+vvv49oki3z1uhw@zyngamail.com",
+            "matched": 13
+          },
+          {
+            "rule_name": "Crm (11)",
+            "source": "label:Other",
+            "query": "from:info@crm.homethycare.com",
+            "matched": 21
+          },
+          {
+            "rule_name": "Hackerrankmail (11)",
+            "source": "label:Other",
+            "query": "from:no-reply@hackerrankmail.com",
+            "matched": 20
+          },
+          {
+            "rule_name": "Spectra (11)",
+            "source": "label:Other",
+            "query": "from:donotreply@spectra.co",
+            "matched": 14
+          },
+          {
+            "rule_name": "Myntra (11)",
+            "source": "label:Other",
+            "query": "from:support@myntra.com",
+            "matched": 35
+          },
+          {
+            "rule_name": "Tripshrip (10)",
+            "source": "label:Other",
+            "query": "from:notifications@tripshrip.com",
+            "matched": 16
+          },
+          {
+            "rule_name": "Gmail (10)",
+            "source": "label:Other",
+            "query": "from:bela.bhatt123@gmail.com",
+            "matched": 18
+          },
+          {
+            "rule_name": "Lybrate (10)",
+            "source": "label:Other",
+            "query": "from:hello@lybrate.com",
+            "matched": 11
+          },
+          {
+            "rule_name": "Blmail (10)",
+            "source": "label:Other",
+            "query": "from:notifications@blmail.buddyloan.in",
+            "matched": 11
+          },
+          {
+            "rule_name": "Shinealerts (10)",
+            "source": "label:Other",
+            "query": "from:alerts@shinealerts.com",
+            "matched": 15
+          },
+          {
+            "rule_name": "Jobrapidoalert (10)",
+            "source": "label:Other",
+            "query": "from:alert@jobrapidoalert.com",
+            "matched": 83
+          },
+          {
+            "rule_name": "Mails (9)",
+            "source": "label:Other",
+            "query": "from:info@mails.shiningindiaa.com",
+            "matched": 215
+          },
+          {
+            "rule_name": "Backendmails (9)",
+            "source": "label:Other",
+            "query": "from:newsletters@backendmails.com",
+            "matched": 38
+          },
+          {
+            "rule_name": "Earmermail (9)",
+            "source": "label:Other",
+            "query": "from:contact@earmermail.com",
+            "matched": 76
+          },
+          {
+            "rule_name": "Fropper (9)",
+            "source": "label:Other",
+            "query": "from:memberservices@fropper.com",
+            "matched": 28
+          },
+          {
+            "rule_name": "Uidai (8)",
+            "source": "label:Other",
+            "query": "from:aadhaar@uidai.gov.in",
+            "matched": 13
+          },
+          {
+            "rule_name": "Neo4J (8)",
+            "source": "label:Other",
+            "query": "from:aura@neo4j.com",
+            "matched": 8
+          },
+          {
+            "rule_name": "Greatlearning (8)",
+            "source": "label:Other",
+            "query": "from:cloudcomputing@greatlearning.in",
+            "matched": 9
+          },
+          {
+            "rule_name": "Softedgeit (8)",
+            "source": "label:Other",
+            "query": "from:mangesh.dhoot@softedgeit.com",
+            "matched": 45
+          },
+          {
+            "rule_name": "Toplevelmail (8)",
+            "source": "label:Other",
+            "query": "from:newsletters@toplevelmail.com",
+            "matched": 34
+          },
+          {
+            "rule_name": "Perfectinbox (8)",
+            "source": "label:Other",
+            "query": "from:newsletters@perfectinbox.com",
+            "matched": 28
+          },
+          {
+            "rule_name": "2Coms (8)",
+            "source": "label:Other",
+            "query": "from:anchal@2coms.com",
+            "matched": 10
+          },
+          {
+            "rule_name": "Greatlearning (7)",
+            "source": "label:Other",
+            "query": "from:iitb_epgd.ai_ds@greatlearning.in",
+            "matched": 11
+          },
+          {
+            "rule_name": "Simplilearnmailer (7)",
+            "source": "label:Other",
+            "query": "from:updates@simplilearnmailer.com",
+            "matched": 7
+          },
+          {
+            "rule_name": "Bluefirsthr (7)",
+            "source": "label:Other",
+            "query": "from:nitish@bluefirsthr.in",
+            "matched": 9
+          },
+          {
+            "rule_name": "Oristay (7)",
+            "source": "label:Other",
+            "query": "from:info@oristay.in",
+            "matched": 9
+          },
+          {
+            "rule_name": "Irctc (7)",
+            "source": "label:Other",
+            "query": "from:irctctourismoffers@irctc.co.in",
+            "matched": 23
+          },
+          {
+            "rule_name": "Sampoorna (7)",
+            "source": "label:Other",
+            "query": "from:keshav.sharma.del@sampoorna.com",
+            "matched": 9
+          },
+          {
+            "rule_name": "Mc (7)",
+            "source": "label:Other",
+            "query": "from:info@mc.progressingindia.com",
+            "matched": 117
+          },
+          {
+            "rule_name": "Getmailinbox (7)",
+            "source": "label:Other",
+            "query": "from:newsletters@getmailinbox.com",
+            "matched": 62
+          },
+          {
+            "rule_name": "Jobsinfinance (7)",
+            "source": "label:Other",
+            "query": "from:info@jobsinfinance.in",
+            "matched": 22
+          },
+          {
+            "rule_name": "Joshshop (7)",
+            "source": "label:Other",
+            "query": "from:offers@joshshop.ncm01.com",
+            "matched": 23
+          },
+          {
+            "rule_name": "Orangetreeglobal (7)",
+            "source": "label:Other",
+            "query": "from:info@orangetreeglobal.com",
+            "matched": 12
+          },
+          {
+            "rule_name": "Jobsalert (6)",
+            "source": "label:Other",
+            "query": "from:jobs@jobsalert.shine.com",
+            "matched": 7
+          },
+          {
+            "rule_name": "Zen2 Makemytrip (6)",
+            "source": "label:Other",
+            "query": "from:no-reply@zen2-makemytrip.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Swiggy (6)",
+            "source": "label:Other",
+            "query": "from:no-reply@swiggy.in",
+            "matched": 8
+          },
+          {
+            "rule_name": "Greatlearning (6)",
+            "source": "label:Other",
+            "query": "from:raj.shukla@greatlearning.in",
+            "matched": 7
+          },
+          {
+            "rule_name": "Homeservices (6)",
+            "source": "label:Other",
+            "query": "from:info@homeservices.nobroker.in",
+            "matched": 6
+          },
+          {
+            "rule_name": "Techgig (6)",
+            "source": "label:Other",
+            "query": "from:user@techgig.com",
+            "matched": 8
+          },
+          {
+            "rule_name": "Inbox48 (6)",
+            "source": "label:Other",
+            "query": "from:info@inbox48.displayinbox.com",
+            "matched": 7
+          },
+          {
+            "rule_name": "Grillorfry (6)",
+            "source": "label:Other",
+            "query": "from:info@grillorfry.com",
+            "matched": 7
+          },
+          {
+            "rule_name": "Simplilearn (6)",
+            "source": "label:Other",
+            "query": "from:simant.samal@simplilearn.net",
+            "matched": 6
+          },
+          {
+            "rule_name": "Spectra (6)",
+            "source": "label:Other",
+            "query": "from:care@spectra.co",
+            "matched": 6
+          },
+          {
+            "rule_name": "Monsterindia (6)",
+            "source": "label:Other",
+            "query": "from:opportunities@monsterindia.com",
+            "matched": 16
+          },
+          {
+            "rule_name": "Digi (6)",
+            "source": "label:Other",
+            "query": "from:info@digi.mailscart.com",
+            "matched": 95
+          },
+          {
+            "rule_name": "Content (6)",
+            "source": "label:Other",
+            "query": "from:holiday@content.goibibo.com",
+            "matched": 29
+          },
+          {
+            "rule_name": "Referhire (6)",
+            "source": "label:Other",
+            "query": "from:notify@referhire.com",
+            "matched": 8
+          },
+          {
+            "rule_name": "Vatsnew (6)",
+            "source": "label:Other",
+            "query": "from:newsletter@vatsnew.info",
+            "matched": 10
+          },
+          {
+            "rule_name": "Mafoirandstad (6)",
+            "source": "label:Other",
+            "query": "from:rakesh.chowdhury@mafoirandstad.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Techgig (5)",
+            "source": "label:Other",
+            "query": "from:promotion@techgig.com",
+            "matched": 9
+          },
+          {
+            "rule_name": "M (5)",
+            "source": "label:Other",
+            "query": "from:team@m.ngrok.com",
+            "matched": 8
+          },
+          {
+            "rule_name": "Godaddy (5)",
+            "source": "label:Other",
+            "query": "from:donotreply@godaddy.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Bitbucket (5)",
+            "source": "label:Other",
+            "query": "from:notifications-noreply@bitbucket.org",
+            "matched": 9
+          },
+          {
+            "rule_name": "Linkedin (5)",
+            "source": "label:Other",
+            "query": "from:messaging-digest-noreply@linkedin.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Tax2Win (5)",
+            "source": "label:Other",
+            "query": "from:save@tax2win.in",
+            "matched": 7
+          },
+          {
+            "rule_name": "Elastic (5)",
+            "source": "label:Other",
+            "query": "from:vijay.bhatt@elastic.run",
+            "matched": 5
+          },
+          {
+            "rule_name": "Skillenza (5)",
+            "source": "label:Other",
+            "query": "from:subhendu@skillenza.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Passportindia (5)",
+            "source": "label:Other",
+            "query": "from:passport.admin@passportindia.gov.in",
+            "matched": 6
+          },
+          {
+            "rule_name": "Hackerearth (5)",
+            "source": "label:Other",
+            "query": "from:mails@hackerearth.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Crm (5)",
+            "source": "label:Other",
+            "query": "from:info@crm.sonyliv.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Adobe (5)",
+            "source": "label:Other",
+            "query": "from:message@adobe.com",
+            "matched": 12
+          },
+          {
+            "rule_name": "Greatlearning (5)",
+            "source": "label:Other",
+            "query": "from:neha.m@greatlearning.in",
+            "matched": 5
+          },
+          {
+            "rule_name": "Veritas (5)",
+            "source": "label:Other",
+            "query": "from:sachin.mirpuri@veritas.com",
+            "matched": 9
+          },
+          {
+            "rule_name": "Finolux (5)",
+            "source": "label:Other",
+            "query": "from:newsletters@finolux.com",
+            "matched": 124
+          },
+          {
+            "rule_name": "Consumerconnect (5)",
+            "source": "label:Other",
+            "query": "from:newsletters@consumerconnect.in",
+            "matched": 30
+          },
+          {
+            "rule_name": "Sulekha (5)",
+            "source": "label:Other",
+            "query": "from:info@sulekha.com",
+            "matched": 16
+          },
+          {
+            "rule_name": "Hod (5)",
+            "source": "label:Other",
+            "query": "from:connect@hod.life",
+            "matched": 9
+          },
+          {
+            "rule_name": "Sonyliv (5)",
+            "source": "label:Other",
+            "query": "from:mailer@sonyliv.com",
+            "matched": 8
+          },
+          {
+            "rule_name": "Quora (5)",
+            "source": "label:Other",
+            "query": "from:follow-suggestion-noreply@quora.com",
+            "matched": 11
+          },
+          {
+            "rule_name": "Bnke (5)",
+            "source": "label:Other",
+            "query": "from:amit.mishra@bnke.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Gmail (5)",
+            "source": "label:Other",
+            "query": "from:neha.melodious@gmail.com",
+            "matched": 7
+          },
+          {
+            "rule_name": "Hsbc (5)",
+            "source": "label:Other",
+            "query": "from:recruitmentsdpi@hsbc.co.in",
+            "matched": 6
+          },
+          {
+            "rule_name": "Huggingface (4)",
+            "source": "label:Other",
+            "query": "from:website@huggingface.co",
+            "matched": 5
+          },
+          {
+            "rule_name": "E Mails (4)",
+            "source": "label:Other",
+            "query": "from:windowsinsiderprogram@e-mails.microsoft.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Sonarsource (4)",
+            "source": "label:Other",
+            "query": "from:hello@sonarsource.email",
+            "matched": 6
+          },
+          {
+            "rule_name": "Engage (4)",
+            "source": "label:Other",
+            "query": "from:info@engage.y-axis.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Bajajfinance (4)",
+            "source": "label:Other",
+            "query": "from:info@bajajfinance.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Ccbill (4)",
+            "source": "label:Other",
+            "query": "from:support@ccbill.com",
+            "matched": 11
+          },
+          {
+            "rule_name": "Mail (4)",
+            "source": "label:Other",
+            "query": "from:sap@mail.sap.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Vonage (4)",
+            "source": "label:Other",
+            "query": "from:devrel-team@vonage.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Marketing (4)",
+            "source": "label:Other",
+            "query": "from:updates@marketing.descript.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Blablacar (4)",
+            "source": "label:Other",
+            "query": "from:hello@blablacar.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Irctc (4)",
+            "source": "label:Other",
+            "query": "from:ticketadmin@irctc.co.in",
+            "matched": 19
+          },
+          {
+            "rule_name": "Zoom (4)",
+            "source": "label:Other",
+            "query": "from:no-reply@zoom.us",
+            "matched": 4
+          },
+          {
+            "rule_name": "Info (4)",
+            "source": "label:Other",
+            "query": "from:no-reply@info.incometax.gov.in",
+            "matched": 5
+          },
+          {
+            "rule_name": "Twitter (4)",
+            "source": "label:Other",
+            "query": "from:verify@twitter.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Oracle (4)",
+            "source": "label:Other",
+            "query": "from:oracle-acct_ww@oracle.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Whizlabs (4)",
+            "source": "label:Other",
+            "query": "from:support@whizlabs.com",
+            "matched": 12
+          },
+          {
+            "rule_name": "Programmingpathshala (4)",
+            "source": "label:Other",
+            "query": "from:anoop@programmingpathshala.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Gmail (4)",
+            "source": "label:Other",
+            "query": "from:dariuusrkotharii@gmail.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Tothenew (4)",
+            "source": "label:Other",
+            "query": "from:ritishree.geda@tothenew.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Gmail (4)",
+            "source": "label:Other",
+            "query": "from:rsverma89@gmail.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Sm (4)",
+            "source": "label:Other",
+            "query": "from:info@sm.progressingindia.com",
+            "matched": 58
+          },
+          {
+            "rule_name": "Veritas (4)",
+            "source": "label:Other",
+            "query": "from:manish.gupta@veritas.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Explore (4)",
+            "source": "label:Other",
+            "query": "from:newsletters@explore.urbanclap.in",
+            "matched": 22
+          },
+          {
+            "rule_name": "Certificationguru (4)",
+            "source": "label:Other",
+            "query": "from:info@certificationguru.co.in",
+            "matched": 15
+          },
+          {
+            "rule_name": "Jetprivilege (4)",
+            "source": "label:Other",
+            "query": "from:jpinfo@jetprivilege.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Gmail (4)",
+            "source": "label:Other",
+            "query": "from:talent.times@gmail.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Gmail (4)",
+            "source": "label:Other",
+            "query": "from:debasmita.yb@gmail.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Geniusconsultant (4)",
+            "source": "label:Other",
+            "query": "from:stirkey@geniusconsultant.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Gmail (4)",
+            "source": "label:Other",
+            "query": "from:neha.bhatt321@gmail.com",
+            "matched": 7
+          },
+          {
+            "rule_name": "Microsoftonline (3)",
+            "source": "label:Other",
+            "query": "from:msonlineservicesteam@microsoftonline.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Newsletters (3)",
+            "source": "label:Other",
+            "query": "from:tamanna.yadav@newsletters.analyticsvidhya.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Foundit (3)",
+            "source": "label:Other",
+            "query": "from:opportunities@foundit.in",
+            "matched": 3
+          },
+          {
+            "rule_name": "Course (3)",
+            "source": "label:Other",
+            "query": "from:iitb_epgd.ai_as@course.mygreatlearning.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Getrecall (3)",
+            "source": "label:Other",
+            "query": "from:sankari@getrecall.ai",
+            "matched": 4
+          },
+          {
+            "rule_name": "Paypal (3)",
+            "source": "label:Other",
+            "query": "from:donotreply@paypal.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Nagarro (3)",
+            "source": "label:Other",
+            "query": "from:ravinder.kaur@nagarro.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "E (3)",
+            "source": "label:Other",
+            "query": "from:email@e.godaddy.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Uplers (3)",
+            "source": "label:Other",
+            "query": "from:talent@uplers.network",
+            "matched": 5
+          },
+          {
+            "rule_name": "Krista (3)",
+            "source": "label:Other",
+            "query": "from:noreply-eng@krista.ai",
+            "matched": 5
+          },
+          {
+            "rule_name": "Alerts (3)",
+            "source": "label:Other",
+            "query": "from:info@alerts.foundit.in",
+            "matched": 3
+          },
+          {
+            "rule_name": "Y Axis (3)",
+            "source": "label:Other",
+            "query": "from:sfadmin@y-axis.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Info (3)",
+            "source": "label:Other",
+            "query": "from:alerts@info.sonyliv.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Paytmoffers (3)",
+            "source": "label:Other",
+            "query": "from:noreply@paytmoffers.in",
+            "matched": 3
+          },
+          {
+            "rule_name": "Tophire (3)",
+            "source": "label:Other",
+            "query": "from:sameer.parwani@tophire.co",
+            "matched": 4
+          },
+          {
+            "rule_name": "Uber (3)",
+            "source": "label:Other",
+            "query": "from:uber.india@uber.com",
+            "matched": 21
+          },
+          {
+            "rule_name": "Sarahbethyoga (3)",
+            "source": "label:Other",
+            "query": "from:info@sarahbethyoga.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Foppscolor (3)",
+            "source": "label:Other",
+            "query": "from:notify@foppscolor.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Interviewbit (3)",
+            "source": "label:Other",
+            "query": "from:info@interviewbit.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Zeta (3)",
+            "source": "label:Other",
+            "query": "from:no-reply@zeta.in",
+            "matched": 3
+          },
+          {
+            "rule_name": "Programmingpathshala (3)",
+            "source": "label:Other",
+            "query": "from:promotions@programmingpathshala.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Twilio (3)",
+            "source": "label:Other",
+            "query": "from:no-reply@twilio.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "On24Event (3)",
+            "source": "label:Other",
+            "query": "from:do_not_reply@on24event.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Passionconnect (3)",
+            "source": "label:Other",
+            "query": "from:akshima@passionconnect.co",
+            "matched": 3
+          },
+          {
+            "rule_name": "Googlemail (3)",
+            "source": "label:Other",
+            "query": "from:mailer-daemon@googlemail.com",
+            "matched": 8
+          },
+          {
+            "rule_name": "Nsdl (3)",
+            "source": "label:Other",
+            "query": "from:nsr@nsdl.co.in",
+            "matched": 25
+          },
+          {
+            "rule_name": "Mailclues (3)",
+            "source": "label:Other",
+            "query": "from:info@mailclues.info",
+            "matched": 3
+          },
+          {
+            "rule_name": "Litmusblox (3)",
+            "source": "label:Other",
+            "query": "from:hello@litmusblox.io",
+            "matched": 4
+          },
+          {
+            "rule_name": "Gmail (3)",
+            "source": "label:Other",
+            "query": "from:shubhamblackbag@gmail.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Carsorax (3)",
+            "source": "label:Other",
+            "query": "from:noreply@carsorax.com",
+            "matched": 44
+          },
+          {
+            "rule_name": "Edm (3)",
+            "source": "label:Other",
+            "query": "from:update@edm.shop-on-mail.com",
+            "matched": 21
+          },
+          {
+            "rule_name": "Mailhexa (3)",
+            "source": "label:Other",
+            "query": "from:newsletters@mailhexa.com",
+            "matched": 20
+          },
+          {
+            "rule_name": "Isconmail (3)",
+            "source": "label:Other",
+            "query": "from:newsletters@isconmail.com",
+            "matched": 40
+          },
+          {
+            "rule_name": "Mailgoogly (3)",
+            "source": "label:Other",
+            "query": "from:newsletters@mailgoogly.com",
+            "matched": 44
+          },
+          {
+            "rule_name": "Jio (3)",
+            "source": "label:Other",
+            "query": "from:notification@jio.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Email (3)",
+            "source": "label:Other",
+            "query": "from:newsletter@email.payback.in",
+            "matched": 10
+          },
+          {
+            "rule_name": "Alerts (3)",
+            "source": "label:Other",
+            "query": "from:recruiter@alerts.shine.com",
+            "matched": 8
+          },
+          {
+            "rule_name": "Skilledin (3)",
+            "source": "label:Other",
+            "query": "from:newsletters@skilledin.co.in",
+            "matched": 8
+          },
+          {
+            "rule_name": "Monsterindia (3)",
+            "source": "label:Other",
+            "query": "from:info@monsterindia.com",
+            "matched": 116
+          },
+          {
+            "rule_name": "Ed Email (3)",
+            "source": "label:Other",
+            "query": "from:info@ed-email.techtarget.com",
+            "matched": 488
+          },
+          {
+            "rule_name": "Lists (3)",
+            "source": "label:Other",
+            "query": "from:searchoracle@lists.techtarget.com",
+            "matched": 120
+          },
+          {
+            "rule_name": "Mailsap (3)",
+            "source": "label:Other",
+            "query": "from:sap@mailsap.com",
+            "matched": 100
+          },
+          {
+            "rule_name": "Techtarget (3)",
+            "source": "label:Other",
+            "query": "from:no_reply@techtarget.com",
+            "matched": 346
+          },
+          {
+            "rule_name": "Email (3)",
+            "source": "label:Other",
+            "query": "from:info@email.skype.com",
+            "matched": 13
+          },
+          {
+            "rule_name": "Rvsolutions (3)",
+            "source": "label:Other",
+            "query": "from:careeer.tsg@rvsolutions.in",
+            "matched": 3
+          },
+          {
+            "rule_name": "Orionedutech (3)",
+            "source": "label:Other",
+            "query": "from:sourcing.kolkata@orionedutech.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "2Coms (3)",
+            "source": "label:Other",
+            "query": "from:antara@2coms.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Gmail (3)",
+            "source": "label:Other",
+            "query": "from:titasde08@gmail.com",
+            "matched": 25
+          },
+          {
+            "rule_name": "Irctc (2)",
+            "source": "label:Other",
+            "query": "from:customerawareness@irctc.co.in",
+            "matched": 3
+          },
+          {
+            "rule_name": "Em (2)",
+            "source": "label:Other",
+            "query": "from:linkedin@em.linkedin.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Linkedin (2)",
+            "source": "label:Other",
+            "query": "from:jobs-listings@linkedin.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Email (2)",
+            "source": "label:Other",
+            "query": "from:noreply@email.openai.com",
+            "matched": 6
+          },
+          {
+            "rule_name": "Bmc (2)",
+            "source": "label:Other",
+            "query": "from:talent_acquisition@bmc.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Pnm (2)",
+            "source": "label:Other",
+            "query": "from:info@pnm.nobroker.in",
+            "matched": 2
+          },
+          {
+            "rule_name": "Modal (2)",
+            "source": "label:Other",
+            "query": "from:greta@modal.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Google (2)",
+            "source": "label:Other",
+            "query": "from:no-reply@google.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Apartmentadda (2)",
+            "source": "label:Other",
+            "query": "from:support@apartmentadda.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Modal (2)",
+            "source": "label:Other",
+            "query": "from:billing@modal.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Confluent (2)",
+            "source": "label:Other",
+            "query": "from:info@confluent.io",
+            "matched": 3
+          },
+          {
+            "rule_name": "Marketing (2)",
+            "source": "label:Other",
+            "query": "from:newsletter@marketing.descript.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Hdfcfund (2)",
+            "source": "label:Other",
+            "query": "from:noresponse@hdfcfund.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Splitwise (2)",
+            "source": "label:Other",
+            "query": "from:hello@splitwise.com",
+            "matched": 4
+          },
+          {
+            "rule_name": "Pinecone (2)",
+            "source": "label:Other",
+            "query": "from:community@pinecone.io",
+            "matched": 3
+          },
+          {
+            "rule_name": "News (2)",
+            "source": "label:Other",
+            "query": "from:communications@news.apilayer.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Valueresearchonline (2)",
+            "source": "label:Other",
+            "query": "from:newsletters@valueresearchonline.net",
+            "matched": 2
+          },
+          {
+            "rule_name": "Pipedream (2)",
+            "source": "label:Other",
+            "query": "from:sacerdoti@pipedream.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Vellum (2)",
+            "source": "label:Other",
+            "query": "from:noa@vellum.ai",
+            "matched": 2
+          },
+          {
+            "rule_name": "Vellum (2)",
+            "source": "label:Other",
+            "query": "from:ben@vellum.ai",
+            "matched": 2
+          },
+          {
+            "rule_name": "Vellum (2)",
+            "source": "label:Other",
+            "query": "from:anita@vellum.ai",
+            "matched": 2
+          },
+          {
+            "rule_name": "Info (2)",
+            "source": "label:Other",
+            "query": "from:support@info.y-axis.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Turing (2)",
+            "source": "label:Other",
+            "query": "from:no-reply@turing.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Aixfeedback (2)",
+            "source": "label:Other",
+            "query": "from:noreply@aixfeedback.airindiaexpress.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Service (2)",
+            "source": "label:Other",
+            "query": "from:recall@service.usepylon.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Upskill (2)",
+            "source": "label:Other",
+            "query": "from:microsoft-gen-ai@upskill.mygreatlearning.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Indiqube (2)",
+            "source": "label:Other",
+            "query": "from:helpdesk@indiqube.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Discord (2)",
+            "source": "label:Other",
+            "query": "from:notifications@discord.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Ngrok (2)",
+            "source": "label:Other",
+            "query": "from:contact@ngrok.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Tatatel (2)",
+            "source": "label:Other",
+            "query": "from:priyankagupta.gupta.ys@tatatel.co.in",
+            "matched": 3
+          },
+          {
+            "rule_name": "Ongrid (2)",
+            "source": "label:Other",
+            "query": "from:no-reply@ongrid.in",
+            "matched": 2
+          },
+          {
+            "rule_name": "Inbound (2)",
+            "source": "label:Other",
+            "query": "from:operati-14194621-183519-9acaa@inbound.gohire-mail.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Affix (2)",
+            "source": "label:Other",
+            "query": "from:no-reply@affix.com.au",
+            "matched": 1
+          },
+          {
+            "rule_name": "Scalingtheory (2)",
+            "source": "label:Other",
+            "query": "from:keerthana@scalingtheory.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Olibr (2)",
+            "source": "label:Other",
+            "query": "from:noreply@olibr.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Teksystems (2)",
+            "source": "label:Other",
+            "query": "from:hbatra@teksystems.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Careers (2)",
+            "source": "label:Other",
+            "query": "from:no-reply@careers.accenture.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Mailer (2)",
+            "source": "label:Other",
+            "query": "from:hello@mailer.interviewbit.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Phonepe (2)",
+            "source": "label:Other",
+            "query": "from:noreply@phonepe.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Tophire (2)",
+            "source": "label:Other",
+            "query": "from:joby.varghese@tophire.co",
+            "matched": 2
+          },
+          {
+            "rule_name": "Diamondpick (2)",
+            "source": "label:Other",
+            "query": "from:akanksha.khankriyal@diamondpick.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Tophire (2)",
+            "source": "label:Other",
+            "query": "from:geetali.oberoi@tophire.co",
+            "matched": 2
+          },
+          {
+            "rule_name": "Service (2)",
+            "source": "label:Other",
+            "query": "from:info@service.icicipruamc.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Intuit (2)",
+            "source": "label:Other",
+            "query": "from:talent@intuit.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Travis Ci (2)",
+            "source": "label:Other",
+            "query": "from:support@travis-ci.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Notify (2)",
+            "source": "label:Other",
+            "query": "from:no-reply@notify.docker.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Risebird (2)",
+            "source": "label:Other",
+            "query": "from:ronak_jain@risebird.io",
+            "matched": 1
+          },
+          {
+            "rule_name": "Tophire (2)",
+            "source": "label:Other",
+            "query": "from:trisha.datta@tophire.co",
+            "matched": 1
+          },
+          {
+            "rule_name": "Notifications (2)",
+            "source": "label:Other",
+            "query": "from:support@notifications.cleartax.in",
+            "matched": 6
+          },
+          {
+            "rule_name": "Conduktor (2)",
+            "source": "label:Other",
+            "query": "from:philip@conduktor.io",
+            "matched": 2
+          },
+          {
+            "rule_name": "Hirepro (2)",
+            "source": "label:Other",
+            "query": "from:anusha.saraf@hirepro.in",
+            "matched": 1
+          },
+          {
+            "rule_name": "Itr (2)",
+            "source": "label:Other",
+            "query": "from:info@itr.info.codecademy.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Updates (2)",
+            "source": "label:Other",
+            "query": "from:alerts@updates.swiggy.in",
+            "matched": 1
+          },
+          {
+            "rule_name": "Aws (2)",
+            "source": "label:Other",
+            "query": "from:password-reset-noreply@aws.amazon.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "from:crckmvn@gmail.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "from:peoplelabsincpvtltd@gmail.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Turing (2)",
+            "source": "label:Other",
+            "query": "from:support@turing.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Synechron (2)",
+            "source": "label:Other",
+            "query": "from:veena.m1@synechron.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Bigsteptech (2)",
+            "source": "label:Other",
+            "query": "from:dheeraj.chauhan@bigsteptech.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "from:dpresumes3@gmail.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Linkedin (2)",
+            "source": "label:Other",
+            "query": "from:security-noreply@linkedin.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "from:akash09agrawal@gmail.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Twilio (2)",
+            "source": "label:Other",
+            "query": "from:support@twilio.zendesk.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Programmingpathshala (2)",
+            "source": "label:Other",
+            "query": "from:info@programmingpathshala.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Slack (2)",
+            "source": "label:Other",
+            "query": "from:notification@slack.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Codingame (2)",
+            "source": "label:Other",
+            "query": "from:no-reply@codingame.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Fyimailer (2)",
+            "source": "label:Other",
+            "query": "from:newsletter@fyimailer.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Hdfc (2)",
+            "source": "label:Other",
+            "query": "from:noreply@hdfc.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Nagarro (2)",
+            "source": "label:Other",
+            "query": "from:teamhiring@nagarro.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Tophire (2)",
+            "source": "label:Other",
+            "query": "from:alene@tophire.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Emails (2)",
+            "source": "label:Other",
+            "query": "from:notification@emails.avast.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Promo (2)",
+            "source": "label:Other",
+            "query": "from:notifications@promo.buddyloan.in",
+            "matched": 2
+          },
+          {
+            "rule_name": "Talentahead (2)",
+            "source": "label:Other",
+            "query": "from:nitin@talentahead.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Blazemeter (2)",
+            "source": "label:Other",
+            "query": "from:do-not-reply@blazemeter.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "from:manoj.matrixsolutionplacement@gmail.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Pubnub (2)",
+            "source": "label:Other",
+            "query": "from:pubnub@pubnub.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Incedoinc (2)",
+            "source": "label:Other",
+            "query": "from:arti.singhal@incedoinc.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Theshein (2)",
+            "source": "label:Other",
+            "query": "from:newsletter@theshein.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Dm (2)",
+            "source": "label:Other",
+            "query": "from:imnewsletter@dm.jetprivilege.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Outlook (2)",
+            "source": "label:Other",
+            "query": "from:swati.sharma@outlook.in",
+            "matched": 2
+          },
+          {
+            "rule_name": "Nexmo (2)",
+            "source": "label:Other",
+            "query": "from:no-replies@nexmo.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Hackerearth (2)",
+            "source": "label:Other",
+            "query": "from:support@hackerearth.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Sampoorna (2)",
+            "source": "label:Other",
+            "query": "from:mary.priyanka.blr@sampoorna.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Sampoorna (2)",
+            "source": "label:Other",
+            "query": "from:urmila.singh.del@sampoorna.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent21 (2)",
+            "source": "label:Other",
+            "query": "from:v.vamshi@talent21.in",
+            "matched": 2
+          },
+          {
+            "rule_name": "Pluralsight (2)",
+            "source": "label:Other",
+            "query": "from:admin@pluralsight.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "from:studiodevd@gmail.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Synechron (2)",
+            "source": "label:Other",
+            "query": "from:mrityuanjai.pandey@synechron.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Expertease (2)",
+            "source": "label:Other",
+            "query": "from:sandhya.s@expertease.co.in",
+            "matched": 2
+          },
+          {
+            "rule_name": "Sampoorna (2)",
+            "source": "label:Other",
+            "query": "from:rohit.pandey.del@sampoorna.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Ecsindia (2)",
+            "source": "label:Other",
+            "query": "from:prabhat@ecsindia.in",
+            "matched": 2
+          },
+          {
+            "rule_name": "Cpc (2)",
+            "source": "label:Other",
+            "query": "from:intimations@cpc.gov.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bluejeans (2)",
+            "source": "label:Other",
+            "query": "from:invite@bluejeans.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Peoplebridge (2)",
+            "source": "label:Other",
+            "query": "from:poojakaushal@peoplebridge.in",
+            "matched": 1
+          },
+          {
+            "rule_name": "Gokaarts (2)",
+            "source": "label:Other",
+            "query": "from:info@gokaarts.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Magnemit (2)",
+            "source": "label:Other",
+            "query": "from:newsletter@magnemit.com",
+            "matched": 22
+          },
+          {
+            "rule_name": "Mta (2)",
+            "source": "label:Other",
+            "query": "from:update@mta.updates-on-mail.com",
+            "matched": 19
+          },
+          {
+            "rule_name": "Epost2 (2)",
+            "source": "label:Other",
+            "query": "from:update@epost2.blogonmail.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Em (2)",
+            "source": "label:Other",
+            "query": "from:update@em.offer-update-mail.com",
+            "matched": 13
+          },
+          {
+            "rule_name": "Crm (2)",
+            "source": "label:Other",
+            "query": "from:update@crm.news-on-mail.com",
+            "matched": 8
+          },
+          {
+            "rule_name": "Epost (2)",
+            "source": "label:Other",
+            "query": "from:update@epost.blogonmail.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Custcomm (2)",
+            "source": "label:Other",
+            "query": "from:information@custcomm.icicibank.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Mails (2)",
+            "source": "label:Other",
+            "query": "from:no-reply@mails.travel-makemytrip.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Olacabs (2)",
+            "source": "label:Other",
+            "query": "from:noreply@olacabs.com",
+            "matched": 25
+          },
+          {
+            "rule_name": "Parallelssoft (2)",
+            "source": "label:Other",
+            "query": "from:no-reply@parallelssoft.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Quora (2)",
+            "source": "label:Other",
+            "query": "from:follow-noreply@quora.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Preemptive (2)",
+            "source": "label:Other",
+            "query": "from:marketing@preemptive.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tatadocomo (2)",
+            "source": "label:Other",
+            "query": "from:alert@tatadocomo.com",
+            "matched": 5
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "from:priya.iitcansults@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Adeo (2)",
+            "source": "label:Other",
+            "query": "from:hiya.r@adeo.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "from:hrsolution.iso9001@gmail.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Ybservices (2)",
+            "source": "label:Other",
+            "query": "from:madhumita@ybservices.net",
+            "matched": 2
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "from:mousumi705@gmail.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Sisgain (2)",
+            "source": "label:Other",
+            "query": "from:alok.kumar@sisgain.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Entl (2)",
+            "source": "label:Other",
+            "query": "from:ambika.r@entl.net",
+            "matched": 1
+          }
+        ]
+      }
+    ],
+    "timestamp": "2026-03-29T19:26:40.533808"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 12500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:42.045556"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 13000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:46.038877"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 13500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:50.235468"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 14000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:54.052449"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 14500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:26:58.060902"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 15000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:02.194188"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 15500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:07.003028"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 16000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:10.824243"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 16500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:15.247001"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 17000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:19.839313"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 17500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:24.494188"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 18000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:28.359369"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 18500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:32.203099"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 19000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:36.657844"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 19500,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:41.337897"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 20000,
+    "batch_size": 500,
+    "trashed": 500,
+    "timestamp": "2026-03-29T19:27:45.337403"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 20500,
+    "batch_size": 500,
+    "trashed": 128,
+    "timestamp": "2026-03-29T19:27:47.080502"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Company Communications",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 11,
+    "timestamp": "2026-04-03T08:51:16.777037"
+  },
+  {
+    "mode": "preview",
+    "labels_processed": 5,
+    "total_matched": 54,
+    "total_trashed": 0,
+    "results": [
+      {
+        "label": "Company Communications",
+        "rules_applied": 1,
+        "matched": 11,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:Company Communications",
+            "query": "before:2026/04/01 -has:attachment",
+            "matched": 11
+          }
+        ]
+      },
+      {
+        "label": "Mediclaim and Life Insurance",
+        "rules_applied": 1,
+        "matched": 0,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:Mediclaim and Life Insurance",
+            "query": "before:2026/04/01 -has:attachment",
+            "matched": 0
+          }
+        ]
+      },
+      {
+        "label": "Other",
+        "rules_applied": 374,
+        "matched": 33,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Risebird",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notification@risebird.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Reddit",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@redditmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora Digest",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:english-quora-digest@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "iimjobs",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@iimjobs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Medium",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@medium.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Nykaa",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@nykaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "NYT",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:nytdirect@nytimes.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:updates@myntra.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BankBazaar credit card",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:creditcard+ratealert@bankbazaar.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "PyImageSearch",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:adrian@pyimagesearch.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Glassdoor",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@glassdoor.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BankBazaar credit report",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:creditreport+ratealert@bankbazaar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora personalized",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:english-personalized-digest@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sarah Beth Yoga",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:Support@sarahbethyoga.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@mailers.zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipped.ai",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:flipped-newsletter@mail.beehiiv.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Finxter",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:chris@finxter.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Scaler",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hello@scaler.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Cloud",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:CloudPlatform-noreply@google.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "GitHub",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@github.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "ClearTax",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@cleartax.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "bigbasket",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:alert@info.bigbasket.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri Alerts",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:naukrialerts@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "EaseMyTrip",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:connect@easemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Udemy",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@e.udemymail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri toptier",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:toptier@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Eximat recruiter",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:careersc2tpbGxzY2FwaXRhbC5pbw==@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AJIO",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:alert@mailer.ajio.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Towards Data Science",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletter@towardsdatascience.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Naukri",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@naukri.com",
+            "matched": 3
+          },
+          {
+            "rule_name": "Google noreply",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@accounts.google.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "LinkedIn",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:updates-noreply@linkedin.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Kaggle",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@kaggle.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:uber@uber.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Contacts",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:contacts@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "TechGig News",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:technews@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@zen-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Matches",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:matchalert@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent500",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@talent500.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "upGrad",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@support.upgrad.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jeevansathi Info",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@jeevansathi.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Udemy Students",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hello@students.udemy.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "sRide",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@sride.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "greatmail spam",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@greatmail.in",
+            "matched": 19
+          },
+          {
+            "rule_name": "CiteHR",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:cite@citemailer.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Lenskart",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:service@en.lenskart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "NoBroker",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hello@nobroker.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "GitHub notifications",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notifications@github.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Turing",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:communications@turing.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Location Sharing",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply-location-sharing@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "plusoasis spam",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@smt.plusoasis.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google noreply",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AmbitionBox",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@ambitionbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent500 Aditi",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:aditi@talent500.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora Curiosity",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:curiosity-noreply@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naukri donotreply",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:donotreply_mailer@naukri.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "foundit",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:updates@alerts.foundit.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "HasData",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:roman@hasdata.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Intuit Hiring",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hiring@intuit.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "npm",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@npmjs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "ZebPay",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@email.zebpay.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "TechGig Webinar",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:expertspeak@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Svix Newsletter",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletter@svix.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Microsoft",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:account-security-noreply@accountprotection.microsoft.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Goibibo",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@content.goibibo.com",
+            "matched": 2
+          },
+          {
+            "rule_name": "Facebookmail (2430)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notification+zrdoiev1hpvf@facebookmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Shopatbest (594)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@shopatbest.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Door2Inbox (420)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@door2inbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Emaily (263)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@emaily.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mailonspot (262)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@mailonspot.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "M2I (248)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@m2i.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Facebookmail (223)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:update+zrdoiev1hpvf@facebookmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Fashiongup (183)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@fashiongup.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Educationation (180)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@educationation.pro",
+            "matched": 0
+          },
+          {
+            "rule_name": "Digital (154)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:admin@digital.findstay.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Growfinserv (150)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@growfinserv.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Smtpmailbox (86)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@smtpmailbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Namomail (77)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@namomail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Brandshop (75)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@brandshop.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zenxmail (66)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@zenxmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Wwfmails (57)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@wwfmails.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Monsterindia (55)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:jobmessenger@monsterindia.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Freetalkie (54)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notification@freetalkie.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jobs (47)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:jobs@jobs.shine.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Naytr (45)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@naytr.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Postfixbox (45)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@postfixbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jobseekc (40)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@jobseekc.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Magicmails (40)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@magicmails.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Buzz India (35)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@buzz-india.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "160By2Inbox (34)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@160by2inbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tixart (32)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@tixart.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Unqiueindia (31)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletter@unqiueindia.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Movies (28)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@movies.airtelupdate.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Keepitinbox (25)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@keepitinbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Techgig (23)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:contest@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Airtelupdate (21)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@airtelupdate.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Edureka (20)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:neha@edureka.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra (18)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@myntra.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jobsalert (17)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:alerts@jobsalert.shine.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Pbengage (17)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@pbengage.payback.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora (17)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:english-digest-noreply@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Check2Inbox (17)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@check2inbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Thetrainingprofs (17)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@thetrainingprofs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Ssp4 (16)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletter@ssp4.brainbear.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "New (16)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@new.bestloansdeal.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Fakesup (15)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@fakesup.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mc (15)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@mc.shiningindiaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Linkedin (13)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:jobs-noreply@linkedin.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Urbanpro (12)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:urbanpro-no-reply@urbanpro.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zyngamail (12)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notifications+vvv49oki3z1uhw@zyngamail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Crm (11)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@crm.homethycare.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Hackerrankmail (11)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@hackerrankmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Spectra (11)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:donotreply@spectra.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra (11)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@myntra.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tripshrip (10)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notifications@tripshrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (10)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:bela.bhatt123@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Lybrate (10)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hello@lybrate.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Blmail (10)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notifications@blmail.buddyloan.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Shinealerts (10)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:alerts@shinealerts.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jobrapidoalert (10)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:alert@jobrapidoalert.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mails (9)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@mails.shiningindiaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Backendmails (9)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@backendmails.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Earmermail (9)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:contact@earmermail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Fropper (9)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:memberservices@fropper.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uidai (8)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:aadhaar@uidai.gov.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Neo4J (8)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:aura@neo4j.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Greatlearning (8)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:cloudcomputing@greatlearning.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Softedgeit (8)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:mangesh.dhoot@softedgeit.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Toplevelmail (8)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@toplevelmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Perfectinbox (8)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@perfectinbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "2Coms (8)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:anchal@2coms.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Greatlearning (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:iitb_epgd.ai_ds@greatlearning.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Simplilearnmailer (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:updates@simplilearnmailer.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bluefirsthr (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:nitish@bluefirsthr.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Oristay (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@oristay.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Irctc (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:irctctourismoffers@irctc.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sampoorna (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:keshav.sharma.del@sampoorna.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mc (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@mc.progressingindia.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Getmailinbox (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@getmailinbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jobsinfinance (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@jobsinfinance.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Joshshop (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:offers@joshshop.ncm01.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Orangetreeglobal (7)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@orangetreeglobal.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jobsalert (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:jobs@jobsalert.shine.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zen2 Makemytrip (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@zen2-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Greatlearning (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:raj.shukla@greatlearning.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Homeservices (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@homeservices.nobroker.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Techgig (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:user@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Inbox48 (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@inbox48.displayinbox.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Grillorfry (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@grillorfry.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Simplilearn (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:simant.samal@simplilearn.net",
+            "matched": 0
+          },
+          {
+            "rule_name": "Spectra (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:care@spectra.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Monsterindia (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:opportunities@monsterindia.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Digi (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@digi.mailscart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Content (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:holiday@content.goibibo.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Referhire (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notify@referhire.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Vatsnew (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletter@vatsnew.info",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mafoirandstad (6)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:rakesh.chowdhury@mafoirandstad.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Techgig (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:promotion@techgig.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "M (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:team@m.ngrok.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Godaddy (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:donotreply@godaddy.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bitbucket (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notifications-noreply@bitbucket.org",
+            "matched": 0
+          },
+          {
+            "rule_name": "Linkedin (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:messaging-digest-noreply@linkedin.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tax2Win (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:save@tax2win.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Elastic (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:vijay.bhatt@elastic.run",
+            "matched": 0
+          },
+          {
+            "rule_name": "Skillenza (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:subhendu@skillenza.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Passportindia (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:passport.admin@passportindia.gov.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Hackerearth (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:mails@hackerearth.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Crm (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@crm.sonyliv.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Adobe (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:message@adobe.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Greatlearning (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:neha.m@greatlearning.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Veritas (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:sachin.mirpuri@veritas.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Finolux (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@finolux.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Consumerconnect (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@consumerconnect.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sulekha (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@sulekha.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Hod (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:connect@hod.life",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sonyliv (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:mailer@sonyliv.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:follow-suggestion-noreply@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bnke (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:amit.mishra@bnke.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:neha.melodious@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Hsbc (5)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:recruitmentsdpi@hsbc.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Huggingface (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:website@huggingface.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "E Mails (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:windowsinsiderprogram@e-mails.microsoft.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sonarsource (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hello@sonarsource.email",
+            "matched": 0
+          },
+          {
+            "rule_name": "Engage (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@engage.y-axis.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bajajfinance (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@bajajfinance.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Ccbill (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@ccbill.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mail (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:sap@mail.sap.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Vonage (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:devrel-team@vonage.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Marketing (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:updates@marketing.descript.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Blablacar (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hello@blablacar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Irctc (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:ticketadmin@irctc.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zoom (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@zoom.us",
+            "matched": 0
+          },
+          {
+            "rule_name": "Info (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@info.incometax.gov.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Twitter (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:verify@twitter.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Oracle (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:oracle-acct_ww@oracle.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Whizlabs (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@whizlabs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Programmingpathshala (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:anoop@programmingpathshala.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:dariuusrkotharii@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tothenew (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:ritishree.geda@tothenew.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:rsverma89@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sm (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@sm.progressingindia.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Veritas (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:manish.gupta@veritas.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Explore (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@explore.urbanclap.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Certificationguru (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@certificationguru.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jetprivilege (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:jpinfo@jetprivilege.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:talent.times@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:debasmita.yb@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Geniusconsultant (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:stirkey@geniusconsultant.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (4)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:neha.bhatt321@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Microsoftonline (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:msonlineservicesteam@microsoftonline.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Newsletters (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:tamanna.yadav@newsletters.analyticsvidhya.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Foundit (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:opportunities@foundit.in",
+            "matched": 1
+          },
+          {
+            "rule_name": "Course (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:iitb_epgd.ai_as@course.mygreatlearning.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Getrecall (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:sankari@getrecall.ai",
+            "matched": 0
+          },
+          {
+            "rule_name": "Paypal (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:donotreply@paypal.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Nagarro (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:ravinder.kaur@nagarro.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "E (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:email@e.godaddy.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uplers (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:talent@uplers.network",
+            "matched": 0
+          },
+          {
+            "rule_name": "Krista (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply-eng@krista.ai",
+            "matched": 0
+          },
+          {
+            "rule_name": "Alerts (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@alerts.foundit.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Y Axis (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:sfadmin@y-axis.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Info (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:alerts@info.sonyliv.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Paytmoffers (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@paytmoffers.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tophire (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:sameer.parwani@tophire.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:uber.india@uber.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sarahbethyoga (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@sarahbethyoga.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Foppscolor (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notify@foppscolor.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Interviewbit (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@interviewbit.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zeta (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@zeta.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Programmingpathshala (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:promotions@programmingpathshala.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Twilio (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@twilio.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "On24Event (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:do_not_reply@on24event.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Passionconnect (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:akshima@passionconnect.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Googlemail (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:mailer-daemon@googlemail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Nsdl (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:nsr@nsdl.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mailclues (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@mailclues.info",
+            "matched": 0
+          },
+          {
+            "rule_name": "Litmusblox (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hello@litmusblox.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:shubhamblackbag@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Carsorax (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@carsorax.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Edm (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:update@edm.shop-on-mail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mailhexa (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@mailhexa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Isconmail (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@isconmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mailgoogly (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@mailgoogly.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Jio (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notification@jio.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Email (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletter@email.payback.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Alerts (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:recruiter@alerts.shine.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Skilledin (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@skilledin.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Monsterindia (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@monsterindia.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Ed Email (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@ed-email.techtarget.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Lists (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:searchoracle@lists.techtarget.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mailsap (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:sap@mailsap.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Techtarget (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no_reply@techtarget.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Email (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@email.skype.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Rvsolutions (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:careeer.tsg@rvsolutions.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Orionedutech (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:sourcing.kolkata@orionedutech.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "2Coms (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:antara@2coms.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (3)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:titasde08@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Irctc (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:customerawareness@irctc.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Em (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:linkedin@em.linkedin.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Linkedin (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:jobs-listings@linkedin.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Email (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@email.openai.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bmc (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:talent_acquisition@bmc.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Pnm (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@pnm.nobroker.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Modal (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:greta@modal.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Apartmentadda (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@apartmentadda.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Modal (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:billing@modal.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Confluent (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@confluent.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Marketing (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletter@marketing.descript.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Hdfcfund (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noresponse@hdfcfund.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Splitwise (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hello@splitwise.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Pinecone (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:community@pinecone.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "News (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:communications@news.apilayer.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Valueresearchonline (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletters@valueresearchonline.net",
+            "matched": 0
+          },
+          {
+            "rule_name": "Pipedream (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:sacerdoti@pipedream.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Vellum (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noa@vellum.ai",
+            "matched": 0
+          },
+          {
+            "rule_name": "Vellum (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:ben@vellum.ai",
+            "matched": 0
+          },
+          {
+            "rule_name": "Vellum (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:anita@vellum.ai",
+            "matched": 0
+          },
+          {
+            "rule_name": "Info (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@info.y-axis.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Turing (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@turing.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Aixfeedback (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@aixfeedback.airindiaexpress.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Service (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:recall@service.usepylon.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Upskill (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:microsoft-gen-ai@upskill.mygreatlearning.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Indiqube (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:helpdesk@indiqube.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Discord (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notifications@discord.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Ngrok (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:contact@ngrok.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tatatel (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:priyankagupta.gupta.ys@tatatel.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Ongrid (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@ongrid.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Inbound (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:operati-14194621-183519-9acaa@inbound.gohire-mail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Affix (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@affix.com.au",
+            "matched": 0
+          },
+          {
+            "rule_name": "Scalingtheory (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:keerthana@scalingtheory.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Olibr (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@olibr.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Teksystems (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hbatra@teksystems.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Careers (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@careers.accenture.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mailer (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hello@mailer.interviewbit.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Phonepe (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@phonepe.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tophire (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:joby.varghese@tophire.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Diamondpick (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:akanksha.khankriyal@diamondpick.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tophire (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:geetali.oberoi@tophire.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Service (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@service.icicipruamc.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Intuit (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:talent@intuit.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Travis Ci (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@travis-ci.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Notify (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@notify.docker.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Risebird (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:ronak_jain@risebird.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tophire (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:trisha.datta@tophire.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Notifications (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@notifications.cleartax.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Conduktor (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:philip@conduktor.io",
+            "matched": 0
+          },
+          {
+            "rule_name": "Hirepro (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:anusha.saraf@hirepro.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Itr (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@itr.info.codecademy.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Updates (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:alerts@updates.swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Aws (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:password-reset-noreply@aws.amazon.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:crckmvn@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:peoplelabsincpvtltd@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Turing (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@turing.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Synechron (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:veena.m1@synechron.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bigsteptech (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:dheeraj.chauhan@bigsteptech.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:dpresumes3@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Linkedin (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:security-noreply@linkedin.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:akash09agrawal@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Twilio (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@twilio.zendesk.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Programmingpathshala (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@programmingpathshala.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Slack (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notification@slack.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Codingame (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@codingame.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Fyimailer (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletter@fyimailer.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Hdfc (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@hdfc.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Nagarro (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:teamhiring@nagarro.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tophire (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:alene@tophire.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Emails (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notification@emails.avast.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Promo (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:notifications@promo.buddyloan.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talentahead (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:nitin@talentahead.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Blazemeter (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:do-not-reply@blazemeter.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:manoj.matrixsolutionplacement@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Pubnub (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:pubnub@pubnub.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Incedoinc (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:arti.singhal@incedoinc.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Theshein (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletter@theshein.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Dm (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:imnewsletter@dm.jetprivilege.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Outlook (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:swati.sharma@outlook.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Nexmo (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-replies@nexmo.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Hackerearth (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:support@hackerearth.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sampoorna (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:mary.priyanka.blr@sampoorna.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sampoorna (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:urmila.singh.del@sampoorna.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Talent21 (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:v.vamshi@talent21.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Pluralsight (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:admin@pluralsight.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:studiodevd@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Synechron (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:mrityuanjai.pandey@synechron.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Expertease (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:sandhya.s@expertease.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sampoorna (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:rohit.pandey.del@sampoorna.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Ecsindia (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:prabhat@ecsindia.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Cpc (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:intimations@cpc.gov.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bluejeans (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:invite@bluejeans.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Peoplebridge (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:poojakaushal@peoplebridge.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gokaarts (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:info@gokaarts.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Magnemit (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:newsletter@magnemit.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mta (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:update@mta.updates-on-mail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Epost2 (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:update@epost2.blogonmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Em (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:update@em.offer-update-mail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Crm (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:update@crm.news-on-mail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Epost (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:update@epost.blogonmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Custcomm (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:information@custcomm.icicibank.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Mails (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@mails.travel-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Olacabs (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:noreply@olacabs.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Parallelssoft (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:no-reply@parallelssoft.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Quora (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:follow-noreply@quora.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Preemptive (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:marketing@preemptive.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Tatadocomo (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:alert@tatadocomo.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:priya.iitcansults@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Adeo (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hiya.r@adeo.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:hrsolution.iso9001@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Ybservices (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:madhumita@ybservices.net",
+            "matched": 0
+          },
+          {
+            "rule_name": "Gmail (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:mousumi705@gmail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sisgain (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:alok.kumar@sisgain.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Entl (2)",
+            "source": "label:Other",
+            "query": "before:2026/04/01 from:ambika.r@entl.net",
+            "matched": 0
+          }
+        ]
+      },
+      {
+        "label": "PPF NPS Bank Fundsindia",
+        "rules_applied": 1,
+        "matched": 9,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "Emails without attachments",
+            "source": "label:PPF NPS Bank Fundsindia",
+            "query": "before:2026/04/01 -has:attachment",
+            "matched": 9
+          }
+        ]
+      },
+      {
+        "label": "Shopping and Online Purchases",
+        "rules_applied": 46,
+        "matched": 1,
+        "trashed": 0,
+        "rule_details": [
+          {
+            "rule_name": "MakeMyTrip",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:noreply@makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato Order",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:noreply@zomato.com",
+            "matched": 1
+          },
+          {
+            "rule_name": "Myntra",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:updates@myntra.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:noreply@mailers.zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip/myBiz",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:noreply@zen-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber Receipts",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:noreply@uber.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiGo",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:reservations@customer.goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "IRCTC",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:ticketadmin@irctc.co.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Urban Ladder",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:hello@urbanladder.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:no-reply@swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "ICICI Bank",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:alert@icicibank.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Nykaa",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:noreply@nykaa.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BookMyShow",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:tickets@bookmyshow.email",
+            "matched": 0
+          },
+          {
+            "rule_name": "Ferns N Petals",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:noreply@fnp.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Agarwal Packers",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:customercare.claims@agarwalpackers.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Sarah Beth Yoga",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:Support@sarahbethyoga.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "ClearTax",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:support@notifications.cleartax.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiGo GST",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:6EGSTInvoice@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:no-reply@ncp.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "BlaBlaCar",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:hello@blablacar.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "bigbasket",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:alert@info.bigbasket.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip Rail",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:railservice@makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Razorpay",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:no-reply@razorpay.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "goIndiGo Services",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:services@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Zomato Dining",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:dining@zomato.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Shiprocket",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:info@net.shiprocket.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Uber",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:uber@uber.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "SpiceJet Itinerary",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:itinerary@spicejet.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "SpiceJet",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:noreply@spicejet.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "OrderYourChoice",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:info@orderyourchoice.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "PayPal",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:service@intl.paypal.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Minimalist",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:help@beminimalist.co",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart nct",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:no-reply@nct.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart rmt",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:no-reply@rmt.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "AJIO Ship",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:ship-confirm@ajio.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Google Pay",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:google-pay-noreply@google.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Flipkart ncb",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:no-reply@ncb.flipkart.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Shopify stores",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:t.shopifyemail.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Bus GST Invoice",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:donotreply@busgst.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Scentkart",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:care@scentkart.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "MakeMyTrip zen2",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:no-reply@zen2-makemytrip.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "IndiQube",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:helpdesk@indiqube.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "Goibibo",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:noreply@content.goibibo.com",
+            "matched": 0
+          },
+          {
+            "rule_name": "goIndiGo Reservations",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:reservations@goindigo.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Swiggy Alerts",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:alerts@updates.swiggy.in",
+            "matched": 0
+          },
+          {
+            "rule_name": "Myntra Info",
+            "source": "label:Shopping and Online Purchases",
+            "query": "before:2026/04/01 from:info@myntra.com",
+            "matched": 0
+          }
+        ]
+      }
+    ],
+    "timestamp": "2026-04-03T08:51:20.210086"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "PPF NPS Bank Fundsindia",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 9,
+    "timestamp": "2026-04-03T08:51:24.908171"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Shopping and Online Purchases",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 1,
+    "timestamp": "2026-04-03T08:51:43.634085"
+  },
+  {
+    "mode": "trash-batch",
+    "label": "Other",
+    "batch_start": 0,
+    "batch_size": 500,
+    "trashed": 33,
+    "timestamp": "2026-04-03T08:53:47.655974"
   }
 ]

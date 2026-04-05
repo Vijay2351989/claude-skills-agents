@@ -8,6 +8,21 @@ allowed-tools: Read, Bash, Edit, Write, Agent
 
 Delete emails from Gmail labels using generic rules (apply to all targeted labels) and label-specific rules. All rules live in `config/rules.json`.
 
+## Cutoff Date — IMPORTANT
+
+**By default, this skill requires a cutoff date to protect recent emails.**
+
+- The user should provide a cutoff date (e.g., "before March 2026", "older than 30 days", "before 2026/03/01")
+- **If the user does NOT provide a cutoff date, ASK them**: "What cutoff date should I use? Only emails BEFORE this date will be deleted. Say 'no cutoff date' to delete all matching emails regardless of date."
+- **Only skip the cutoff date if the user explicitly says "no cutoff date" or "all dates"**
+- Date format for the script: `YYYY/MM/DD` (e.g., `2026/03/01`)
+- Pass cutoff via `--before YYYY/MM/DD` flag to all Python script commands (`--preview`, `--cleanup`, `--fetch-ids`)
+
+**Examples:**
+- "clean up emails before March 2026" → `--before 2026/03/01`
+- "delete emails older than 6 months" → calculate date, use `--before YYYY/MM/DD`
+- "no cutoff date" → no `--before` flag (deletes all matching emails)
+
 ## Allowed Labels
 
 This skill ONLY operates on these 5 custom labels:
@@ -44,17 +59,19 @@ SCRIPT=".claude/skills/gmail-cleanup/execution/gmail_cleanup.py"
 # List labels with email counts
 python3 $SCRIPT --list-labels
 
-# Preview what would be deleted (dry run)
-python3 $SCRIPT --preview
-python3 $SCRIPT --preview --label "Company Communications"
+# Preview what would be deleted (dry run) — with cutoff date
+python3 $SCRIPT --preview --before 2026/03/01
+python3 $SCRIPT --preview --label "Company Communications" --before 2026/03/01
 
-# Sequential cleanup (single-threaded, for small jobs)
-python3 $SCRIPT --cleanup --label "Company Communications"
+# Sequential cleanup (single-threaded, for small jobs) — with cutoff date
+python3 $SCRIPT --cleanup --label "Company Communications" --before 2026/03/01
 
-# Parallel batch commands (used by delete-email agent):
-python3 $SCRIPT --fetch-ids --label "Company Communications"
+# Parallel batch commands (used by delete-email agent) — with cutoff date:
+python3 $SCRIPT --fetch-ids --label "Company Communications" --before 2026/03/01
 python3 $SCRIPT --trash-batch --label "Company Communications" --start 0 --size 500
 ```
+
+**Note:** `--before` is applied during `--fetch-ids` (filters which emails are saved to the IDs file). The `--trash-batch` command does NOT need `--before` since it just trashes IDs already saved by `--fetch-ids`.
 
 ## Parallel Execution — How to Run Cleanup
 

@@ -12,15 +12,16 @@ You will be given:
 
 1. **Read your batch of emails** by running:
 ```bash
-cd "/Users/jai/Downloads/Free Claude Code Skills/.claude/skills/gmail-organizer" && python3 execution/gmail_categorise.py --read-emails --offset <OFFSET> --limit <LIMIT>
+cd "/Users/vijaybhatt/my-projects/claude-skills-agents/useful-task-automation/.claude/skills/gmail-organizer" && python3 execution/gmail_categorise.py --read-emails --offset <OFFSET> --limit <LIMIT> [--after YYYY/MM/DD] [--before YYYY/MM/DD]
 ```
+Include `--after` and `--before` flags if a date range was provided.
 This fetches emails directly from Gmail and prints each email's ID, From, Subject, Date, and Snippet.
 
 2. **Categorize each email** using your intelligence. For each email, decide which ONE label fits best based on the rules below.
 
 3. **Apply the label** for each email by running:
 ```bash
-cd "/Users/jai/Downloads/Free Claude Code Skills/.claude/skills/gmail-organizer" && python3 execution/gmail_categorise.py --apply-label <EMAIL_ID> "<LABEL_NAME>"
+cd "/Users/vijaybhatt/my-projects/claude-skills-agents/useful-task-automation/.claude/skills/gmail-organizer" && python3 execution/gmail_categorise.py --apply-label <EMAIL_ID> "<LABEL_NAME>"
 ```
 
 4. **Report results** — at the end, output a summary of how many emails went into each category.

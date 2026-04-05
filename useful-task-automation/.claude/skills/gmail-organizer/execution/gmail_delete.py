@@ -148,10 +148,16 @@ def main():
         choices=["promotions", "forums", "social", "spam", "drafts"],
         help="Gmail category to delete",
     )
+    parser.add_argument("--after", help="Filter emails after date (YYYY/MM/DD)")
+    parser.add_argument("--before", help="Filter emails before date (YYYY/MM/DD)")
     args = parser.parse_args()
 
     category = args.category
     query = CATEGORY_QUERIES[category]
+    if args.after:
+        query += f" after:{args.after}"
+    if args.before:
+        query += f" before:{args.before}"
 
     print(f"=== Gmail Delete Agent: {category.upper()} ===")
 

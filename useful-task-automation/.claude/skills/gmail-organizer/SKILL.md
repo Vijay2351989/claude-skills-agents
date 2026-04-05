@@ -9,7 +9,22 @@ allowed-tools: Read, Grep, Glob, Bash, Agent
 ## Goal
 Two-phase Gmail cleanup:
 1. **Phase 1 (Delete)**: Trash all emails in Promotions, Forums, Social, Spam, and Drafts using 5 parallel `gmail-delete` agents
-2. **Phase 2 (Categorize)**: Label all remaining inbox emails into structured categories using 10 parallel `email-categoriser` agents
+2. **Phase 2 (Categorize)**: Label remaining inbox emails into structured categories using 10 parallel `email-categoriser` agents
+
+## Date Range — IMPORTANT
+
+**By default, this skill operates on a date range, NOT all emails.**
+
+- The user should provide a date range (e.g., "last 7 days", "March 2026", "2026/03/01 to 2026/03/29")
+- **If the user does NOT provide a date range, ASK them**: "What date range should I organize? (e.g., 'last 7 days', 'March 2026'). Say 'no date filter' to process all emails."
+- **Only process ALL emails if the user explicitly says "no date filter" or "all emails"**
+- Date format for the script: `YYYY/MM/DD` (e.g., `2026/03/01`)
+- Pass dates via `--after` and `--before` flags to the Python scripts
+
+**Examples:**
+- "organize last week" → `--after 2026/03/22 --before 2026/03/30`
+- "organize March 2026" → `--after 2026/02/28 --before 2026/03/30`
+- "no date filter" → no `--after`/`--before` flags (processes all)
 
 ## Gmail Auth
 - Token: `config/token.json`
@@ -110,10 +125,11 @@ The skill acts as an **orchestrator** that keeps 10 `email-categorizer` agents a
 python3 execution/gmail_categorise.py --create-labels
 ```
 
-2. Get total inbox email count:
+2. Get total inbox email count (with date filter):
 ```bash
-python3 execution/gmail_categorise.py --count-inbox
+python3 execution/gmail_categorise.py --count-inbox --after YYYY/MM/DD --before YYYY/MM/DD
 ```
+Omit `--after`/`--before` only if user explicitly said "no date filter".
 This prints just the number. The skill uses this to calculate how many waves of agents to spawn.
 
 **Orchestration:**

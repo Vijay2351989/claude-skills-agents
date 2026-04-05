@@ -50,16 +50,22 @@ def create_labels(service):
     return label_ids
 
 
-def count_inbox(service):
+def count_inbox(service, after=None, before=None):
     """Count total inbox emails by paginating through message IDs (lightweight)."""
     count = 0
     page_token = None
+
+    query = "in:inbox"
+    if after:
+        query += f" after:{after}"
+    if before:
+        query += f" before:{before}"
 
     while True:
         try:
             results = service.users().messages().list(
                 userId="me",
-                q="in:inbox",
+                q=query,
                 maxResults=500,
                 pageToken=page_token,
             ).execute()
@@ -92,7 +98,7 @@ def _load_custom_label_ids():
     return set()
 
 
-def read_emails(service, offset, limit):
+def read_emails(service, offset, limit, after=None, before=None):
     """Fetch emails from inbox at the given offset/limit and print them.
 
     Gmail API doesn't support offset-based pagination, so we paginate
@@ -101,6 +107,13 @@ def read_emails(service, offset, limit):
     """
     # Load custom label IDs to skip already-categorized emails
     custom_label_ids = _load_custom_label_ids()
+
+    # Build query with optional date filters
+    query = "in:inbox"
+    if after:
+        query += f" after:{after}"
+    if before:
+        query += f" before:{before}"
 
     # Step 1: Collect all inbox message IDs by paginating
     # For large offsets, use before: date filter to narrow results and avoid
@@ -113,7 +126,7 @@ def read_emails(service, offset, limit):
         try:
             results = service.users().messages().list(
                 userId="me",
-                q="in:inbox",
+                q=query,
                 maxResults=500,
                 pageToken=page_token,
             ).execute()
@@ -152,7 +165,7 @@ def read_emails(service, offset, limit):
                         try:
                             results = service.users().messages().list(
                                 userId="me",
-                                q="in:inbox",
+                                q=query,
                                 maxResults=500,
                                 pageToken=page_token,
                             ).execute()
@@ -284,6 +297,8 @@ def main():
     parser.add_argument("--read-emails", action="store_true", help="Read emails at given offset/limit from Gmail")
     parser.add_argument("--offset", type=int, default=0, help="Start offset for --read-emails")
     parser.add_argument("--limit", type=int, default=100, help="Number of emails for --read-emails")
+    parser.add_argument("--after", type=str, default=None, help="Only emails after this date (YYYY/MM/DD)")
+    parser.add_argument("--before", type=str, default=None, help="Only emails before this date (YYYY/MM/DD)")
     parser.add_argument("--apply-label", nargs=2, metavar=("EMAIL_ID", "LABEL_NAME"),
                         help="Apply a label to a single email")
     args = parser.parse_args()
@@ -293,9 +308,9 @@ def main():
     if args.create_labels:
         create_labels(service)
     elif args.count_inbox:
-        count_inbox(service)
+        count_inbox(service, after=args.after, before=args.before)
     elif args.read_emails:
-        read_emails(service, args.offset, args.limit)
+        read_emails(service, args.offset, args.limit, after=args.after, before=args.before)
     elif args.apply_label:
         email_id, label_name = args.apply_label
         apply_label(service, email_id, label_name)
